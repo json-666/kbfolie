@@ -17,6 +17,41 @@ html :where(.wp-block){
   max-width: 100%;
 }
 
+//style menu, navbar & all common elements here
+.page{
+  &__header{
+    //position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    &__navigation{
+      ul{
+        display: flex;
+        gap: 39px;
+        li{
+          list-style-type: none;
+          &.fc-green{
+            a{
+              color: map-get($colors, 'green');
+            }
+          }
+          a{
+            @extend .fs-22;
+            @extend .fw-600;
+            color: black;
+            text-transform: uppercase;
+            text-decoration: none;
+            @include transition();
+            &:hover{
+              color: map-get($colors, 'orange');
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @import "_blocks.scss";
 
 /* IMPORT RESPONSIVE */

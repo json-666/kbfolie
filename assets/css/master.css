@@ -11849,31 +11849,34 @@ textarea.form-control-lg {
 }
 /* IMPORT CUSTOMISATION */
 .fs-48, h1, .h1 {
-  font-size: 3rem;
+  font-size: 2.1818181818rem;
 }
 .fs-32, h2, .h2 {
-  font-size: 2rem;
+  font-size: 1.4545454545rem;
 }
 .fs-28, h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 1.2727272727rem;
 }
 .fs-24, h4, .h4 {
-  font-size: 1.5rem;
+  font-size: 1.0909090909rem;
 }
-.fs-20, h5, .h5 {
-  font-size: 1.25rem;
-}
-.fs-16, p, .normal {
+.fs-22, .page__header__navigation ul li a {
   font-size: 1rem;
 }
+.fs-20, h5, .h5 {
+  font-size: 0.9090909091rem;
+}
+.fs-16, p, .normal {
+  font-size: 0.7272727273rem;
+}
 .fs-14, small, .small {
-  font-size: 0.875rem;
+  font-size: 0.6363636364rem;
 }
 .fs-12 {
-  font-size: 0.75rem;
+  font-size: 0.5454545455rem;
 }
 .fs-11 {
-  font-size: 0.6875rem;
+  font-size: 0.5rem;
 }
 .fw-100 {
   font-weight: 100;
@@ -11890,7 +11893,7 @@ textarea.form-control-lg {
 .fw-500 {
   font-weight: 500;
 }
-.fw-600 {
+.fw-600, .page__header__navigation ul li a {
   font-weight: 600;
 }
 .fw-700 {
@@ -11909,7 +11912,7 @@ textarea.form-control-lg {
   color: #FFA800;
 }
 .fc-green {
-  color: #005C1F;
+  color: #058536;
 }
 
 .border-white {
@@ -11922,7 +11925,7 @@ textarea.form-control-lg {
   border-color: #FFA800 !important;
 }
 .border-green {
-  border-color: #005C1F !important;
+  border-color: #058536 !important;
 }
 
 .bg-white {
@@ -11935,7 +11938,7 @@ textarea.form-control-lg {
   background: #FFA800 !important;
 }
 .bg-green {
-  background: #005C1F !important;
+  background: #058536 !important;
 }
 
 html, body {
@@ -11947,13 +11950,43 @@ html :where(.wp-block) {
   max-width: 100%;
 }
 
+.page__header {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.page__header__navigation ul {
+  display: flex;
+  gap: 39px;
+}
+.page__header__navigation ul li {
+  list-style-type: none;
+}
+.page__header__navigation ul li.fc-green a {
+  color: #058536;
+}
+.page__header__navigation ul li a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .page__header__navigation ul li a {
+    transition: none;
+  }
+}
+.page__header__navigation ul li a:hover {
+  color: #FFA800;
+}
+
 /* IMPORT RESPONSIVE */
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1400px;
   }
   html {
-    font-size: 16px !important;
+    font-size: 22px !important;
   }
 }
 @media screen and (max-width: 981px) {
