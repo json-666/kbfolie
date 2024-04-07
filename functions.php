@@ -89,12 +89,11 @@ function scripts():void
 }
 add_action('wp_enqueue_scripts', 'scripts');
 
-function load_custom_wp_admin_style():void
-{
-	wp_enqueue_style('style-custom', get_template_directory_uri().'/assets/css/master.css', [], filemtime(get_template_directory().'/assets/css/master.css'));
-}
-add_action('admin_enqueue_scripts', 'load_custom_wp_admin_style');
+add_action('enqueue_block_assets', function () {
 
+	wp_enqueue_style('style-custom', get_template_directory_uri().'/assets/css/master.css', [], filemtime(get_template_directory().'/assets/css/master.css'));
+
+});
 
 /**
  * Enable .svg files import
