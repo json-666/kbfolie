@@ -1,0 +1,14 @@
+.border{
+  @each $colorName,$colorHex in $colors {
+    &-#{$colorName}{
+      border-color: $colorHex !important;
+    }
+  }
+}
+.bg{
+  @each $colorName,$colorHex in $colors {
+    &-#{$colorName}{
+     background: $colorHex !important;
+    }
+  }
+}

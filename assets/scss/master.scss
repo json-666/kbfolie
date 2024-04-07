@@ -1,0 +1,23 @@
+/* IMPORT CUSTOM FUNCTIONS */
+@import "_functions.scss";
+/* IMPORT ALL BS */
+@import "../../node_modules/bootstrap/scss/bootstrap";
+/* IMPORT CUSTOMISATION */
+@import "_variables.scss";
+@import "_fonts.scss";
+@import "_elements.scss";
+
+@import "../../node_modules/swiper/swiper-bundle.css";
+
+html, body{
+  -webkit-font-smoothing: antialiased;
+  color: map-get($colors,"black");
+}
+html :where(.wp-block){
+  max-width: 100%;
+}
+
+@import "_blocks.scss";
+
+/* IMPORT RESPONSIVE */
+@import "_responsive.scss";

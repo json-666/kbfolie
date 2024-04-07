@@ -1,0 +1,45 @@
+.f{
+    &s{
+      @each $fsize in $fsizes {
+        &-#{$fsize}{
+          font-size: toRem($fsize);
+        }
+      }
+    }
+  &w{
+    @for $w from 1 through 8{
+      &-#{$w*100}{
+        font-weight: #{$w*100};
+      }
+    }
+  }
+  &c{
+    @each $colorName,$colorHex in $colors {
+      &-#{$colorName}{
+        color: $colorHex;
+      }
+    }
+  }
+}
+
+h1, .h1{
+  @extend .fs-48;
+}
+h2, .h2{
+  @extend .fs-32;
+}
+h3, .h3{
+  @extend .fs-28;
+}
+h4, .h4{
+  @extend .fs-24;
+}
+h5, .h5{
+  @extend .fs-20;
+}
+small, .small{
+  @extend .fs-14;
+}
+p, .normal{
+  @extend .fs-16;
+}

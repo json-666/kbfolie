@@ -1,0 +1,20 @@
+{
+  "name": "sass-compile",
+  "version": "1.0.0",
+  "description": "A simple sass compile config.",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css",
+    "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "hamburgers": "^1.2.1",
+    "swiper": "^11.0.5"
+  }
+}
