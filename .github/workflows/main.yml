@@ -14,4 +14,4 @@ jobs:
           server: host.uncreative.dev
           username: admin
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /web/kbfolie.uncreative.dev/public_html/wp-content/themes/kbfolie
+          server-dir: /web/kbfolie.uncreative.dev/public_html/wp-content/themes/kbfolie/
