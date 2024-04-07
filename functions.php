@@ -22,7 +22,7 @@ if (! defined('_VERSION')) {
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function setup()
+function setup():void
 {
 	/**
 	 * Let WordPress manage the document title.
@@ -79,7 +79,7 @@ add_action('after_setup_theme', 'setup');
 /**
  * Enqueue scripts and styles.
  */
-function scripts()
+function scripts():void
 {
 	wp_enqueue_style('style', get_stylesheet_uri(), [], _VERSION);
 	wp_enqueue_style('style-custom', get_template_directory_uri().'/assets/css/master.css', [], filemtime(get_template_directory().'/assets/css/master.css'));
@@ -89,7 +89,8 @@ function scripts()
 }
 add_action('wp_enqueue_scripts', 'scripts');
 
-function load_custom_wp_admin_style(){
+function load_custom_wp_admin_style():void
+{
 	wp_enqueue_style('style-custom', get_template_directory_uri().'/assets/css/master.css', [], filemtime(get_template_directory().'/assets/css/master.css'));
 }
 add_action('admin_enqueue_scripts', 'load_custom_wp_admin_style');
@@ -98,7 +99,7 @@ add_action('admin_enqueue_scripts', 'load_custom_wp_admin_style');
 /**
  * Enable .svg files import
  */
-function cc_mime_types($mimes)
+function cc_mime_types($mimes):array
 {
 	$mimes['svg'] = 'image/svg+xml';
 	return $mimes;
