@@ -1,0 +1,15 @@
+{
+  "name": "kbf/products-home",
+  "title": "KBFolie - Products-home (Homepage)",
+  "description": "Blok wyświetlający sekcję Hero dla strony głównej",
+  "category": "kbfolie",
+  "apiVersion": 2,
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "blocks/kbf-products-home/kbf-products-home.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true
+  }
+}
