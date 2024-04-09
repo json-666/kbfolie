@@ -1,0 +1,15 @@
+{
+  "name": "kbf/categories",
+  "title": "KBFolie - Categories (Homepage)",
+  "description": "Blok wyświetlający sekcję Kategorie dla strony głównej",
+  "category": "kbfolie",
+  "apiVersion": 2,
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "blocks/kbf-categories/kbf-categories.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true
+  }
+}
