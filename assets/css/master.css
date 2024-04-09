@@ -12093,6 +12093,37 @@ html :where(.wp-block) {
 .block__categories__image {
   height: 400px;
 }
+.block__poznaj {
+  background-image: url(../../images/telko22.png);
+  background-size: cover;
+  padding: 75px 0;
+}
+.block__poznaj__single {
+  width: 230px;
+  height: 230px;
+  margin: auto;
+  text-align: center;
+  background-image: url(../../images/bgPNBItem.svg);
+  background-size: contain;
+  background-position: center;
+}
+.block__poznaj__single img {
+  width: 100px;
+  height: auto;
+}
+.block__aktualnosci {
+  position: relative;
+}
+.block__aktualnosci::after {
+  content: "";
+  width: 100%;
+  height: 80%;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(30deg, #FF8A00, #FFBA00);
+  z-index: -1;
+}
 
 .block__poznaj {
   background-image: url(../../images/telko22.png);
@@ -12117,6 +12148,9 @@ html :where(.wp-block) {
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1400px;
+  }
+  .container-large {
+    max-width: 1600px;
   }
   html {
     font-size: 22px !important;
