@@ -11869,6 +11869,9 @@ textarea.form-control-lg {
 .fs-16, p, .normal {
   font-size: 0.7272727273rem;
 }
+.fs-15 {
+  font-size: 0.6818181818rem;
+}
 .fs-14, small, .small {
   font-size: 0.6363636364rem;
 }
