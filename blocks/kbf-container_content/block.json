@@ -1,0 +1,15 @@
+{
+  "name": "kbf/c-content",
+  "title": "KBFolie - Treść zawężona",
+  "description": "Blok wyświetlający bloki w kontenerze (zawężone)",
+  "category": "kbfolie",
+  "apiVersion": 2,
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "blocks/kbf-container_content/kbf-container_content.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true
+  }
+}

@@ -11854,6 +11854,9 @@ textarea.form-control-lg {
 .fs-45, h1, .h1 {
   font-size: 2.0454545455rem;
 }
+.fs-35 {
+  font-size: 1.5909090909rem;
+}
 .fs-32, h2, .h2 {
   font-size: 1.4545454545rem;
 }
@@ -11993,6 +11996,14 @@ html :where(.wp-block) {
 }
 .page__header__navigation ul li a:hover {
   color: #FFA800;
+}
+
+.wp-block-kbf-c-content {
+  border: #adb2ad solid 1px;
+  padding: 15px;
+}
+.wp-block-kbf-c-content p {
+  margin-bottom: 0;
 }
 
 /* IMPORT RESPONSIVE */
