@@ -11857,7 +11857,7 @@ textarea.form-control-lg {
 .fs-35, h2, .h2 {
   font-size: 1.5909090909rem;
 }
-.fs-32 {
+.fs-32, .kbf__title {
   font-size: 1.4545454545rem;
 }
 .fs-28, h3, .h3 {
@@ -11905,7 +11905,7 @@ textarea.form-control-lg {
 .fw-600, .page__header__navigation ul li a {
   font-weight: 600;
 }
-.fw-700 {
+.fw-700, .kbf__title {
   font-weight: 700;
 }
 .fw-800 {
@@ -11922,6 +11922,58 @@ textarea.form-control-lg {
 }
 .fc-green {
   color: #058536;
+}
+
+fs-48 {
+  font-size: 48px;
+}
+
+fs-45 {
+  font-size: 45px;
+}
+
+fs-35 {
+  font-size: 35px;
+}
+
+fs-32 {
+  font-size: 32px;
+}
+
+fs-28 {
+  font-size: 28px;
+}
+
+fs-24 {
+  font-size: 24px;
+}
+
+fs-22 {
+  font-size: 22px;
+}
+
+fs-20 {
+  font-size: 20px;
+}
+
+fs-16 {
+  font-size: 16px;
+}
+
+fs-15 {
+  font-size: 15px;
+}
+
+fs-14 {
+  font-size: 14px;
+}
+
+fs-12 {
+  font-size: 12px;
+}
+
+fs-11 {
+  font-size: 11px;
 }
 
 .border-white {
@@ -11943,7 +11995,7 @@ textarea.form-control-lg {
 .bg-black {
   background: #000 !important;
 }
-.bg-orange {
+.bg-orange, .kbf__title::after, .kbf__title::before {
   background: #FFA800 !important;
 }
 .bg-green {
@@ -11957,6 +12009,38 @@ textarea.form-control-lg {
   font-weight: 500;
   background: linear-gradient(30deg, #FF8A00, #FFBA00);
   padding: 25px 35px;
+}
+
+.kbf__title {
+  position: relative;
+  text-align: center;
+}
+.kbf__title::after, .kbf__title::before {
+  content: "";
+  height: 1px;
+  position: absolute;
+  top: 50%;
+}
+.kbf__title::after {
+  right: 0;
+}
+.kbf__title::before {
+  left: 0;
+}
+.kbf__title.mark-10::after, .kbf__title.mark-10::before {
+  width: 10%;
+}
+.kbf__title.mark-20::after, .kbf__title.mark-20::before {
+  width: 20%;
+}
+.kbf__title.mark-30::after, .kbf__title.mark-30::before {
+  width: 30%;
+}
+.kbf__title.mark-40::after, .kbf__title.mark-40::before {
+  width: 40%;
+}
+.kbf__title.mark-50::after, .kbf__title.mark-50::before {
+  width: 50%;
 }
 
 html, body {
@@ -12008,6 +12092,25 @@ html :where(.wp-block) {
 
 .block__categories__image {
   height: 400px;
+}
+
+.block__poznaj {
+  background-image: url(../../images/telko22.png);
+  background-size: cover;
+  padding: 75px 0;
+}
+.block__poznaj__single {
+  width: 230px;
+  height: 230px;
+  margin: auto;
+  text-align: center;
+  background-image: url(../../images/bgPNBItem.svg);
+  background-size: contain;
+  background-position: center;
+}
+.block__poznaj__single img {
+  width: 100px;
+  height: auto;
 }
 
 /* IMPORT RESPONSIVE */
