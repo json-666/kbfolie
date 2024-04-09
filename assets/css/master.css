@@ -12124,24 +12124,16 @@ html :where(.wp-block) {
   background: linear-gradient(30deg, #FF8A00, #FFBA00);
   z-index: -1;
 }
-
-.block__poznaj {
-  background-image: url(../../images/telko22.png);
-  background-size: cover;
-  padding: 75px 0;
-}
-.block__poznaj__single {
-  width: 230px;
-  height: 230px;
-  margin: auto;
-  text-align: center;
-  background-image: url(../../images/bgPNBItem.svg);
-  background-size: contain;
-  background-position: center;
-}
-.block__poznaj__single img {
-  width: 100px;
-  height: auto;
+.block__products-home__overlay {
+  display: flex;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 60%;
+  height: 60%;
+  background: rgba(255, 255, 255, 0.7);
+  align-items: center;
+  justify-content: center;
 }
 
 /* IMPORT RESPONSIVE */
