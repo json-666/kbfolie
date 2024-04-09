@@ -1,0 +1,15 @@
+{
+  "name": "kbf/poznaj",
+  "title": "KBFolie - Poznaj nas bliżej (Homepgae)",
+  "description": "Blok wyświetlający sekcję 'Poznaj nas bliżej' dla Strony Głównej (zielone tło)",
+  "category": "kbfolie",
+  "apiVersion": 2,
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "blocks/kbf-poznaj_nas_blizej/kbf-poznaj_nas_blizej.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true
+  }
+}
