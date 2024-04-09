@@ -11854,11 +11854,8 @@ textarea.form-control-lg {
 .fs-45, h1, .h1 {
   font-size: 2.0454545455rem;
 }
-.fs-35 {
+.fs-35, h2, .h2 {
   font-size: 1.5909090909rem;
-}
-.fs-32, h2, .h2 {
-  font-size: 1.4545454545rem;
 }
 .fs-28, h3, .h3 {
   font-size: 1.2727272727rem;
