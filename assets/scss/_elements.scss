@@ -12,3 +12,14 @@
     }
   }
 }
+.btn{
+  &-primary{
+    @extend .rounded-pill;
+    color: map-get($colors, 'white');
+    text-decoration: none;
+    font-size: toRem(24)rem;
+    font-weight: 500;
+    background: linear-gradient(30deg, #FF8A00, #FFBA00);
+    padding: 25px 35px;
+  }
+}

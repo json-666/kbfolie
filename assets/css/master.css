@@ -8836,7 +8836,7 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
-.rounded-pill {
+.rounded-pill, .btn-primary {
   border-radius: var(--bs-border-radius-pill) !important;
 }
 
@@ -11848,8 +11848,11 @@ textarea.form-control-lg {
   }
 }
 /* IMPORT CUSTOMISATION */
-.fs-48, h1, .h1 {
+.fs-48 {
   font-size: 2.1818181818rem;
+}
+.fs-45, h1, .h1 {
+  font-size: 2.0454545455rem;
 }
 .fs-32, h2, .h2 {
   font-size: 1.4545454545rem;
@@ -11860,13 +11863,13 @@ textarea.form-control-lg {
 .fs-24, h4, .h4 {
   font-size: 1.0909090909rem;
 }
-.fs-22, .page__header__navigation ul li a {
+.fs-22, .page__header__navigation ul li a, p, .normal {
   font-size: 1rem;
 }
 .fs-20, h5, .h5 {
   font-size: 0.9090909091rem;
 }
-.fs-16, p, .normal {
+.fs-16 {
   font-size: 0.7272727273rem;
 }
 .fs-15 {
@@ -11942,6 +11945,15 @@ textarea.form-control-lg {
 }
 .bg-green {
   background: #058536 !important;
+}
+
+.btn-primary {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.0909090909rem rem;
+  font-weight: 500;
+  background: linear-gradient(30deg, #FF8A00, #FFBA00);
+  padding: 25px 35px;
 }
 
 html, body {

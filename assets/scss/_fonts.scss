@@ -23,7 +23,7 @@
 }
 
 h1, .h1{
-  @extend .fs-48;
+  @extend .fs-45;
 }
 h2, .h2{
   @extend .fs-32;
@@ -41,5 +41,5 @@ small, .small{
   @extend .fs-14;
 }
 p, .normal{
-  @extend .fs-16;
+  @extend .fs-22;
 }
