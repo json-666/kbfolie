@@ -21,7 +21,11 @@
     }
   }
 }
-
+@each $fsize in $fsizes {
+  fs-#{$fsize}{
+    font-size: #{$fsize}px;
+  }
+}
 h1, .h1{
   @extend .fs-45;
 }

@@ -8,6 +8,20 @@
 .block{
   &__poznaj{
     background-image: url(../../images/telko22.png);
+    background-size: cover;
     padding: 75px 0;
+    &__single{
+      width: 230px;
+      height: 230px;
+      margin: auto;
+      text-align: center;
+      background-image: url(../../images/bgPNBItem.svg);
+      background-size: contain;
+      background-position: center;
+      img{
+        width: 100px;
+        height: auto;
+      }
+    }
   }
 }

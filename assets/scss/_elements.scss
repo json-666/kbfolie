@@ -23,3 +23,31 @@
     padding: 25px 35px;
   }
 }
+.kbf{
+  &__title{
+    position: relative;
+    text-align: center;
+    @extend .fs-32;
+    @extend .fw-700;
+    &::after, &::before{
+      content: '';
+      height: 1px;
+      @extend .bg-orange;
+      position: absolute;
+      top: 50%;
+    }
+    &::after{
+      right: 0;
+    }
+    &::before{
+      left: 0;
+    }
+    @for $w from 1 through 5 {
+      &.mark-#{$w*10} {
+        &::after, &::before {
+          width: #{$w*10} + '%';
+        }
+      }
+    }
+  }
+}
