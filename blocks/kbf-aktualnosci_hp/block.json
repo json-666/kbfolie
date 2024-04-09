@@ -1,0 +1,15 @@
+{
+  "name": "kbf/aktualnosci-hp",
+  "title": "KBFolie - Aktualności (Homepage)",
+  "description": "Blok wyświetlający ostatnio dodane wpisy. Ilość do dostosowania z poziomu ustawień",
+  "category": "kbfolie",
+  "apiVersion": 2,
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "blocks/kbf-aktualnosci_hp/kbf-aktualnosci_hp.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true
+  }
+}
