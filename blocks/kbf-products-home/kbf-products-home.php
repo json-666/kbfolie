@@ -25,7 +25,7 @@ $fields = get_fields();
 ?>
 <section class="<?php echo $class_name; ?>">
     <div class="mb-3">
-        <h2 class="text-center fs-32 fw-600"><?php echo $fields['categories-home']; ?></h2>
+        <h2 class="kbf__title mark-40"><?php echo $fields['categories-home']; ?></h2>
     </div>
     <div class="container">
         <div class="row g-0">
@@ -38,6 +38,5 @@ $fields = get_fields();
                 </div>
             <?php endforeach; ?>
         </div>
-
     </div>
 </section>
