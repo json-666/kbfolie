@@ -11866,6 +11866,9 @@ textarea.form-control-lg {
 .fs-24, h4, .h4 {
   font-size: 1.0909090909rem;
 }
+.fs-23 {
+  font-size: 1.0454545455rem;
+}
 .fs-22, .page__header__navigation ul li a, p, .normal {
   font-size: 1rem;
 }
@@ -11946,6 +11949,10 @@ fs-28 {
 
 fs-24 {
   font-size: 24px;
+}
+
+fs-23 {
+  font-size: 23px;
 }
 
 fs-22 {
