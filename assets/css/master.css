@@ -12078,6 +12078,11 @@ html :where(.wp-block) {
 }
 .page__header__navigation ul li {
   list-style-type: none;
+  position: relative;
+}
+.page__header__navigation ul li:hover > .sub-menu {
+  visibility: visible;
+  opacity: 1;
 }
 .page__header__navigation ul li.fc-green a {
   color: #058536;
@@ -12095,6 +12100,38 @@ html :where(.wp-block) {
 }
 .page__header__navigation ul li a:hover {
   color: #FFA800;
+}
+.page__header__navigation ul li .sub-menu {
+  display: block;
+  position: absolute;
+  background: #F3F3F3;
+  padding: 20px;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 50px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .page__header__navigation ul li .sub-menu {
+    transition: none;
+  }
+}
+.page__header__navigation ul li .sub-menu::before {
+  content: "";
+  width: 31px;
+  height: 22px;
+  background-size: contain;
+  background: url("../../images/trojkacik.svg") no-repeat;
+  position: absolute;
+  top: -15px;
+  left: calc(50% - 15px);
+}
+.page__header__navigation ul li .sub-menu li > a {
+  font-weight: 400;
+  line-height: 2.0454545455rem;
+  text-wrap: nowrap;
 }
 
 .wp-block-kbf-c-content {
