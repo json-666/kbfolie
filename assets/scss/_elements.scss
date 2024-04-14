@@ -13,7 +13,7 @@
   }
 }
 .btn{
-  &-primary{
+  &-primary:not(:has(a)), &-primary > a{
     @extend .rounded-pill;
     color: map-get($colors, 'white');
     text-decoration: none;
@@ -21,6 +21,22 @@
     font-weight: 500;
     background: linear-gradient(30deg, #FF8A00, #FFBA00);
     padding: 25px 35px;
+  }
+}
+.btn-primary{
+  &.pdf > a{
+    position: relative;
+    padding: 25px 65px 25px 35px;
+    &::after{
+      content: "";
+      width: 26px;
+      height: 25px;
+      position: absolute;
+      background-size: contain;
+      background: url(../../images/arrow_pdf.svg) no-repeat;
+      top: 36%;
+      right: 30px;
+    }
   }
 }
 .kbf{
