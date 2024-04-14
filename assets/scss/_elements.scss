@@ -50,4 +50,10 @@
       }
     }
   }
+  &__title-2{
+    position: relative;
+    text-align: center;
+    @extend .fs-30;
+    @extend .fw-500;
+  }
 }
