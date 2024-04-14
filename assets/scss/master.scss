@@ -30,6 +30,13 @@ html :where(.wp-block){
         gap: 39px;
         li{
           list-style-type: none;
+          position: relative;
+          &:hover{
+            & > .sub-menu{
+              visibility: visible;
+              opacity: 1;
+            }
+          }
           &.fc-green{
             a{
               color: map-get($colors, 'green');
@@ -44,6 +51,33 @@ html :where(.wp-block){
             @include transition();
             &:hover{
               color: map-get($colors, 'orange');
+            }
+          }
+          .sub-menu{
+            display: block;
+            position: absolute;
+            background: #F3F3F3;
+            padding: 20px;
+            transform: translateX(-50%);
+            left: 50%;
+            top: 50px;
+            opacity: 0;
+            visibility: hidden;
+            @include transition();
+            &::before{
+              content: '';
+              width: 31px;
+              height: 22px;
+              background-size: contain;
+              background: url("../../images/trojkacik.svg") no-repeat;
+              position: absolute;
+              top: -15px;
+              left: calc(50% - 15px);
+            }
+            li > a{
+              font-weight: 400;
+              line-height: toRem(45);
+              text-wrap: nowrap;
             }
           }
         }
