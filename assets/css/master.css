@@ -11860,6 +11860,9 @@ textarea.form-control-lg {
 .fs-32, .kbf__title {
   font-size: 1.4545454545rem;
 }
+.fs-30, .kbf__title-2 {
+  font-size: 1.3636363636rem;
+}
 .fs-28, h3, .h3 {
   font-size: 1.2727272727rem;
 }
@@ -11902,7 +11905,7 @@ textarea.form-control-lg {
 .fw-400 {
   font-weight: 400;
 }
-.fw-500 {
+.fw-500, .kbf__title-2 {
   font-weight: 500;
 }
 .fw-600, .page__header__navigation ul li a {
@@ -11941,6 +11944,10 @@ fs-35 {
 
 fs-32 {
   font-size: 32px;
+}
+
+fs-30 {
+  font-size: 30px;
 }
 
 fs-28 {
@@ -12064,6 +12071,10 @@ fs-11 {
 .kbf__title.mark-50::after, .kbf__title.mark-50::before {
   width: 50%;
 }
+.kbf__title-2 {
+  position: relative;
+  text-align: center;
+}
 
 html, body {
   -webkit-font-smoothing: antialiased;
@@ -12149,6 +12160,10 @@ html :where(.wp-block) {
   margin-bottom: 0;
 }
 
+.twojastara {
+  color: purple;
+}
+
 .block__categories__image {
   height: 400px;
 }
@@ -12206,6 +12221,80 @@ html :where(.wp-block) {
   background: rgba(255, 255, 255, 0.7);
   align-items: center;
   justify-content: center;
+}
+.block__contacts__line-0 {
+  border: 1px solid #FFA800;
+  opacity: 1;
+  width: 85%;
+}
+.block__contacts__line-1 {
+  border: 1px solid #FFA800;
+  opacity: 1;
+  width: 85%;
+}
+.block__contacts__line-2 {
+  border: 1px solid #FFA800;
+  opacity: 1;
+  width: 85%;
+}
+.block__contacts__line-3 {
+  border: 1px solid #FFA800;
+  opacity: 1;
+  width: 85%;
+}
+.block__contacts__line-4 {
+  border: 1px solid #FFA800;
+  opacity: 1;
+  width: 85%;
+}
+.block__contacts__line-5 {
+  border: 1px solid #FFA800;
+  opacity: 1;
+  width: 85%;
+}
+.block__contacts__line-6 {
+  border: 1px solid #FFA800;
+  opacity: 1;
+  width: 120%;
+}
+.block__contacts__line-7 {
+  border: 1px solid #FFA800;
+  opacity: 1;
+  width: 85%;
+}
+.block__contacts__icone-mail {
+  position: relative;
+  right: -35px;
+}
+.block__contacts__icone-mail::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/mail.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  left: -35px;
+  top: 0;
+}
+.block__contacts__icone-phone {
+  position: relative;
+  right: -35px;
+}
+.block__contacts__icone-phone::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/phone.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  left: -35px;
+  top: 0;
 }
 
 /* IMPORT RESPONSIVE */

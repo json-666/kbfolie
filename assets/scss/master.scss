@@ -92,8 +92,12 @@ html :where(.wp-block){
     margin-bottom: 0;
   }
 }
+.twojastara{
+  color: purple;
+}
 //
 @import "_blocks.scss";
-
+//
+//
 /* IMPORT RESPONSIVE */
 @import "_responsive.scss";
