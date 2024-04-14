@@ -8836,7 +8836,7 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
-.rounded-pill, .btn-primary {
+.rounded-pill, .btn-primary:not(:has(a)), .btn-primary > a {
   border-radius: var(--bs-border-radius-pill) !important;
 }
 
@@ -12002,13 +12002,28 @@ fs-11 {
   background: #058536 !important;
 }
 
-.btn-primary {
+.btn-primary:not(:has(a)), .btn-primary > a {
   color: #fff;
   text-decoration: none;
   font-size: 1.0909090909rem rem;
   font-weight: 500;
   background: linear-gradient(30deg, #FF8A00, #FFBA00);
   padding: 25px 35px;
+}
+
+.btn-primary.pdf > a {
+  position: relative;
+  padding: 25px 65px 25px 35px;
+}
+.btn-primary.pdf > a::after {
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  background-size: contain;
+  background: url(../../images/arrow_pdf.svg) no-repeat;
+  top: 36%;
+  right: 30px;
 }
 
 .kbf__title {
