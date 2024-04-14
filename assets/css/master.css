@@ -12117,12 +12117,25 @@ html :where(.wp-block) {
 .block__aktualnosci::after {
   content: "";
   width: 100%;
-  height: 80%;
+  height: 70%;
   left: 0;
   bottom: 0;
   position: absolute;
   background: linear-gradient(30deg, #FF8A00, #FFBA00);
   z-index: -1;
+}
+.block__aktualnosci__inner {
+  box-shadow: 4px 0px 10px -1px rgba(0, 0, 0, 0.25);
+}
+.block__aktualnosci__inner__image {
+  height: 350px;
+}
+.block__aktualnosci__inner__content {
+  background: white;
+  padding: 15px;
+}
+.block__aktualnosci__inner__content h4, .block__aktualnosci__inner__content .h4 {
+  height: 85px;
 }
 .block__products-home__overlay {
   display: flex;

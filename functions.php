@@ -90,9 +90,7 @@ function scripts():void
 add_action('wp_enqueue_scripts', 'scripts');
 
 add_action('enqueue_block_assets', function () {
-
 	wp_enqueue_style('style-custom', get_template_directory_uri().'/assets/css/master.css', [], filemtime(get_template_directory().'/assets/css/master.css'));
-
 });
 
 /**
