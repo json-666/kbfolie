@@ -12342,6 +12342,13 @@ html :where(.wp-block) {
   padding: 32px 66px;
 }
 
+.single__featured {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 70px;
+}
+
 /* IMPORT RESPONSIVE */
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
