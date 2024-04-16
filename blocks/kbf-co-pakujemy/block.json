@@ -1,0 +1,15 @@
+{
+  "name": "kbf/copakujemy",
+  "title": "KBFolie - Co możemy zapakować (pojedynczy wpis)",
+  "description": "Blok wyświetlający treść pojedynczego wpisu typu 'Co możemy zapakować'",
+  "category": "kbfolie",
+  "apiVersion": 2,
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "blocks/kbf-co-pakujemy/kbf-co-pakujemy.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true
+  }
+}

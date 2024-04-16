@@ -2,7 +2,7 @@
     <section class="border-top border-1 border-black">
         <div class="container">
             <div class="row align-items-center justify-content-between py-2">
-                <div class="col-auto">
+                <div class="col-auto ps-lg-0">
                     <a href="<?php echo get_home_url(); ?>">
                         <img src="<?php echo esc_url(wp_get_attachment_image_src(get_theme_mod('custom_logo'), 'full')[0]); ?>" alt="KBFolie Logo" class="w-100">
                     </a>
@@ -26,12 +26,12 @@
                     </a>
                     <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">RODO</a>
                 </div>
-                <div class="col">
+                <div class="col pe-lg-0">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/ueA1.png" alt="" class="w-100">
                 </div>
             </div>
             <div class="row align-items-center justify-content-between">
-                <div class="col-auto">
+                <div class="col-auto ps-lg-0">
                     <p class="fw-600 fs-15">
                         KB Folie Polska Sp.z o.o. <br/>
                         ul. Bieżuńska 2b, 03-578 Warszawa <br/>
@@ -39,7 +39,7 @@
                         tel. +48 22 679 99 27, fax +48 22 678 66 66, e-mail: kbfolie@kbfolie.pl
                     </p>
                 </div>
-                <div class="col-auto">
+                <div class="col-auto pe-lg-0">
                     <a href="https://www.linkedin.com/company/kb-folie-polska-sp-z-o-o/"><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/04/Outline_Color_copy_2.svg" alt="linkedin"></a>
                 </div>
 
