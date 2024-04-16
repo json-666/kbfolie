@@ -60,15 +60,13 @@
   }
   &__products-home{
     &__overlay{
-      display: flex;
-      position: absolute;
-      left: 20%;
-      top: 20%;
-      width: 60%;
-      height: 60%;
-      background: rgba(255, 255, 255, 0.7);
-      align-items: center;
-      justify-content: center;
+      padding: 50px;
+      background-size: cover;
+      background-position: center;
+      &__title{
+        padding: 40px;
+        background: rgba($color: #fff, $alpha: .7);
+      }
     }
   }
   &__contacts{
@@ -97,6 +95,43 @@
           left: -35px;
           top: 0;
         }
+      }
+    }
+  }
+  &__copakujemy-single{
+    &__content-item{
+      padding-bottom: 50px;
+      margin-bottom: 50px;
+      &:last-of-type{
+        border: none !important;
+        margin-bottom: 0;
+      }
+      ul{
+        padding-left: 0;
+        margin: 0;
+        & > li{
+          font-size: toRem(20);
+          list-style-type: none;
+          position: relative;
+          padding-left: 30px;
+          line-height: 1.7rem;
+          &::before{
+            content: '';
+            background-size: contain;
+            background: url(../../images/icon_list_item_single_cmz.svg) no-repeat center;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 20px;
+          }
+        }
+      }
+    }
+    &__title{
+      &__inner {
+        background: rgba($color: #fff, $alpha: .7);
+        padding: 32px 66px;
       }
     }
   }

@@ -24,7 +24,7 @@
             <div class="row align-items-center justify-content-between">
 	            <?php get_template_part('template-parts/part-menu-siteidentity'); ?>
 	            <?php get_template_part('template-parts/part-menu-navigation'); ?>
-                <div class="col-auto">
+                <div class="col-auto pe-lg-0">
                     <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2024/04/european-union_206593-1.png" alt="eu flag">
                 </div>
             </div>

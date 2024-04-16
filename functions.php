@@ -122,3 +122,28 @@ $block_json_files = glob(get_template_directory() . '/blocks/**/block.json');
 foreach ($block_json_files as $block_json_file) {
 	register_block_type($block_json_file);
 }
+
+/**
+ * Register cusotm posty type for Co możemy zapakować Pages
+ *
+ * @branch feature/co-zapakowac-pages
+ * */
+function kbf_add_co_mozemy_zapakowac_post_type() {
+
+    register_post_type( 'cozapakowac',
+        // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'Co możemy zapakować' ),
+                'singular_name' => __( 'Co możemy zapakować' )
+            ),
+            'menu_icon' => 'dashicons-format-aside',
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'co-pakujemy'),
+            'show_in_rest' => true,
+        )
+    );
+}
+add_action( 'init', 'kbf_add_co_mozemy_zapakowac_post_type' );
+add_post_type_support( 'cozapakowac', 'thumbnail' );

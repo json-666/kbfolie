@@ -28,14 +28,9 @@ $fields = get_fields();
         <h2 class="kbf__title mark-40"><?php echo $fields['categories-home']; ?></h2>
     </div>
     <div class="container">
-        <div class="row g-0">
-            <?php foreach (range(1, 8) as $variable): ?>
-                <div class="col-6 col-lg-3 position-relative">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/macaroons.png" alt="" class="m-2">
-                    <div class="block__products-home__overlay">
-                        <p class="text-uppercase fw-600 fs-22">lorem ipsum</p>
-                    </div>
-                </div>
+        <div class="row">
+            <?php foreach (get_posts(['post_type'=>'cozapakowac','posts_per_page'=>-1]) as $coZapakowac): ?>
+                <?php get_template_part('blocks/kbf-products-home/parts/card', '', $coZapakowac); ?>
             <?php endforeach; ?>
         </div>
     </div>
