@@ -11866,6 +11866,9 @@ textarea.form-control-lg {
 .fs-28, h3, .h3 {
   font-size: 1.2727272727rem;
 }
+.fs-25 {
+  font-size: 1.1363636364rem;
+}
 .fs-24, h4, .h4 {
   font-size: 1.0909090909rem;
 }
@@ -11952,6 +11955,10 @@ fs-30 {
 
 fs-28 {
   font-size: 28px;
+}
+
+fs-25 {
+  font-size: 25px;
 }
 
 fs-24 {
@@ -12074,6 +12081,42 @@ fs-11 {
 .kbf__title-2 {
   position: relative;
   text-align: center;
+}
+
+.icone-mail {
+  position: relative;
+  right: -35px;
+}
+.icone-mail::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/mail.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  left: -35px;
+  align-items: center;
+}
+
+.icone-phone {
+  position: relative;
+  right: -35px;
+}
+.icone-phone::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/phone.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  left: -35px;
+  align-items: center;
 }
 
 html, body {
@@ -12225,32 +12268,32 @@ html :where(.wp-block) {
 .block__contacts__line-0 {
   border: 1px solid #FFA800;
   opacity: 1;
-  width: 85%;
+  width: 100%;
 }
 .block__contacts__line-1 {
   border: 1px solid #FFA800;
   opacity: 1;
-  width: 85%;
+  width: 100%;
 }
 .block__contacts__line-2 {
   border: 1px solid #FFA800;
   opacity: 1;
-  width: 85%;
+  width: 100%;
 }
 .block__contacts__line-3 {
   border: 1px solid #FFA800;
   opacity: 1;
-  width: 85%;
+  width: 100%;
 }
 .block__contacts__line-4 {
   border: 1px solid #FFA800;
   opacity: 1;
-  width: 85%;
+  width: 100%;
 }
 .block__contacts__line-5 {
   border: 1px solid #FFA800;
   opacity: 1;
-  width: 85%;
+  width: 100%;
 }
 .block__contacts__line-6 {
   border: 1px solid #FFA800;
@@ -12260,41 +12303,10 @@ html :where(.wp-block) {
 .block__contacts__line-7 {
   border: 1px solid #FFA800;
   opacity: 1;
-  width: 85%;
+  width: 100%;
 }
-.block__contacts__icone-mail {
-  position: relative;
-  right: -35px;
-}
-.block__contacts__icone-mail::before {
-  content: "";
-  display: block;
-  width: 20px;
-  height: 20px;
-  background-image: url("../../images/mail.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: absolute;
-  left: -35px;
-  align-items: center;
-}
-.block__contacts__icone-phone {
-  position: relative;
-  right: -35px;
-}
-.block__contacts__icone-phone::before {
-  content: "";
-  display: block;
-  width: 20px;
-  height: 20px;
-  background-image: url("../../images/phone.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: absolute;
-  left: -35px;
-  align-items: center;
+.block__localization__map > iframe {
+  height: 450px;
 }
 
 /* IMPORT RESPONSIVE */
@@ -12358,23 +12370,47 @@ html :where(.wp-block) {
   .block__contacts__person {
     text-align: center;
   }
-  .block__contacts__icone-mail {
+  .block__contacts .icone-mail {
     position: relative;
     right: 0px;
     display: inline-block;
   }
-  .block__contacts__icone-mail::before {
+  .block__contacts .icone-mail::before {
     top: 50%;
     transform: translateY(-50%);
   }
-  .block__contacts__icone-phone {
+  .block__contacts .icone-phone {
     position: relative;
     right: 0px;
     display: inline-block;
   }
-  .block__contacts__icone-phone::before {
+  .block__contacts .icone-phone::before {
     top: 50%;
     transform: translateY(-50%);
+  }
+  .block__localization {
+    text-align: center;
+  }
+  .block__localization .icone-mail {
+    position: relative;
+    right: 0px;
+    display: inline-block;
+  }
+  .block__localization .icone-mail::before {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .block__localization .icone-phone {
+    position: relative;
+    right: 0px;
+    display: inline-block;
+  }
+  .block__localization .icone-phone::before {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .block__localization__map > iframe {
+    height: 300px;
   }
 }
 
