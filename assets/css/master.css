@@ -12202,14 +12202,24 @@ html :where(.wp-block) {
   box-shadow: 4px 0px 10px -1px rgba(0, 0, 0, 0.25);
 }
 .block__aktualnosci__inner__image {
-  height: 350px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .block__aktualnosci__inner__content {
   background: white;
   padding: 15px;
 }
 .block__aktualnosci__inner__content h4, .block__aktualnosci__inner__content .h4 {
-  height: 85px;
+  height: 115px;
+}
+.block__aktualnosci__inner__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* number of lines to show */
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
 }
 .block__products-home__overlay {
   display: flex;

@@ -40,9 +40,7 @@
                     </p>
                 </div>
                 <div class="col-auto">
-                    <p>
-                        instagram
-                    </p>
+                    <a href="https://www.linkedin.com/company/kb-folie-polska-sp-z-o-o/"><img src="<?php echo get_home_url() ?>/wp-content/uploads/2024/04/Outline_Color_copy_2.svg" alt="linkedin"></a>
                 </div>
 
             </div>
