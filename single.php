@@ -1,7 +1,11 @@
 <?php get_header(); ?>
 
     <main class="page__<?= $post->post_name ?>" data-page="<?= $post->post_name ?>">
-        <?php the_content(); ?>
+        <?php if(is_singular('post')): ?>
+            <?php get_template_part('template-parts/part-single-post','',$post); ?>
+        <?php else: ?>
+            <?php the_content(); ?>
+        <?php endif; ?>
     </main>
 
 <?php get_footer(); ?>
