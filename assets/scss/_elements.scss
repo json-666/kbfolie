@@ -73,6 +73,26 @@
     @extend .fw-500;
   }
 }
+
+@each $name, $url in $icons {
+  .icone-#{$name} {
+    position: relative;
+    right: -35px;
+    &::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 20px;
+      background-image: url("#{$url}");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      position: absolute;
+      left: -35px;
+      align-items: center;
+    }
+  }
+}
 figure.w-100 > img{
   width: 100%;
 }

@@ -31,7 +31,7 @@
       }
 
       @each $name, $url in $icons {
-        &__icone-#{$name} {
+        .icone-#{$name} {
           position: relative;
           right: 0px;
           display: inline-block;
@@ -39,6 +39,25 @@
             top: 50%;
             transform: translateY(-50%);
           }
+        }
+      }
+    }
+    &__localization{
+      text-align: center;
+      @each $name, $url in $icons {
+        .icone-#{$name} {
+          position: relative;
+          right: 0px;
+          display: inline-block;
+          &::before {
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+      }
+      &__map{
+        & > iframe{
+          height: 300px;
         }
       }
     }
