@@ -1,0 +1,15 @@
+{
+  "name": "kbf/localiaztion",
+  "title": "KBFolie - Localization",
+  "description": "Blok wyświetlający sekcję lokalizacji na stronie kontaktów",
+  "category": "kbfolie",
+  "apiVersion": 2,
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "blocks/kbf-localization/kbf-localization.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true
+  }
+}

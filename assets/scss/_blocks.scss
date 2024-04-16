@@ -93,27 +93,14 @@
       &__line-#{$w}{
         border: 1px solid #FFA800;
         opacity: 1;
-        width: if($w == 6, 120%, 85%);
+        width: if($w == 6, 120%, 100%);
       }
     }
-
-    @each $name, $url in $icons {
-      &__icone-#{$name} {
-        position: relative;
-        right: -35px;
-        &::before {
-          content: '';
-          display: block;
-          width: 20px;
-          height: 20px;
-          background-image: url("#{$url}");
-          background-repeat: no-repeat;
-          background-size: contain;
-          background-position: center;
-          position: absolute;
-          left: -35px;
-          align-items: center;
-        }
+  }
+  &__localization{
+    &__map{
+      & > iframe{
+        height: 450px;
       }
     }
   }
