@@ -12151,9 +12151,11 @@ html :where(.wp-block) {
   left: calc(50% - 15px);
 }
 .page__header__navigation ul li .sub-menu li > a {
+  font-size: 0.9090909091rem;
   font-weight: 400;
   line-height: 2.0454545455rem;
   text-wrap: nowrap;
+  text-transform: none;
 }
 
 .wp-block-kbf-c-content {
@@ -12168,6 +12170,18 @@ html :where(.wp-block) {
   color: purple;
 }
 
+.block__hero::before {
+  content: "";
+  background-image: url(../../images/tlo1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
 .block__categories__image {
   height: 400px;
 }
@@ -12217,18 +12231,28 @@ html :where(.wp-block) {
 .block__aktualnosci__inner__content h4, .block__aktualnosci__inner__content .h4 {
   height: 115px;
 }
-.block__aktualnosci__inner__content p {
+.block__aktualnosci__inner__content__excerpt {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 5; /* number of lines to show */
   line-clamp: 5;
   -webkit-box-orient: vertical;
+  font-size: 0.8636363636rem;
 }
 .block__products-home__overlay {
   padding: 50px;
   background-size: cover;
   background-position: center;
+  transition: 0.5s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .block__products-home__overlay {
+    transition: none;
+  }
+}
+.block__products-home__overlay:hover {
+  transform: scale(1.05);
 }
 .block__products-home__overlay__title {
   padding: 40px;
