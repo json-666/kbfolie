@@ -12,7 +12,7 @@ if (!empty($block['anchor'])) {
 }
 
 // Create class attribute allowing for custom "className" and "align" values.
-$class_name = 'block__categories';
+$class_name = 'block__categories py-5';
 
 if (!empty($block['className'])) {
     $class_name .= ' ' . $block['className'];
@@ -32,7 +32,7 @@ $fields = get_fields();
                         <div class="block__categories__image ">
                             <img src="<?php echo $categories['obrazek']['url'] ?>" alt="<?php echo $categories['obrazek']['alt'] ?>" class="w-100">
                         </div>
-                        <p class="fw-700 fs-24 text-center mt-3"><?php echo $categories['podpis'] ?></p>
+                        <p class="fw-700 fs-24 text-center mt-3 text-uppercase"><?php echo $categories['podpis'] ?></p>
                     </a>
                 </div>
             <?php endforeach;?>
