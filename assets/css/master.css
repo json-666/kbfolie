@@ -12119,6 +12119,10 @@ fs-11 {
   align-items: center;
 }
 
+figure.w-100 > img {
+  width: 100%;
+}
+
 html, body {
   -webkit-font-smoothing: antialiased;
   color: #000;
@@ -12172,6 +12176,7 @@ html :where(.wp-block) {
   top: 50px;
   opacity: 0;
   visibility: hidden;
+  z-index: 10;
   transition: all 0.2s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -12235,12 +12240,49 @@ html :where(.wp-block) {
   margin: auto;
   text-align: center;
   background-image: url(../../images/bgPNBItem.svg);
-  background-size: contain;
+  background-size: 99%;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .block__poznaj__single img {
   width: 100px;
   height: auto;
+}
+.block__poznaj__single__wrapper {
+  z-index: 1;
+  position: relative;
+}
+.block__poznaj__single__wrapper p {
+  line-height: 1.8181818182rem;
+}
+.block__poznaj__single__wrapper:nth-of-type(2n+1) {
+  z-index: 2;
+}
+.block__poznaj__single__wrapper:nth-of-type(2n) {
+  z-index: 1;
+}
+.block__poznaj__single__wrapper:nth-of-type(2n)::before, .block__poznaj__single__wrapper:nth-of-type(2n)::after {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: -1;
+}
+.block__poznaj__single__wrapper:nth-of-type(2n)::before {
+  background-image: url(../../images/pnb_snake_up.svg);
+  left: -33%;
+  top: 34px;
+  width: 197px;
+  height: 179px;
+  transform: rotate(1.8deg);
+}
+.block__poznaj__single__wrapper:nth-of-type(2n)::after {
+  background-image: url(../../images/pnb_snake_up.svg);
+  right: -32.5%;
+  top: 29px;
+  width: 202px;
+  height: 186px;
+  transform: rotate(79.5deg);
 }
 .block__aktualnosci {
   position: relative;
@@ -12268,16 +12310,18 @@ html :where(.wp-block) {
   padding: 15px;
 }
 .block__aktualnosci__inner__content h4, .block__aktualnosci__inner__content .h4 {
-  height: 115px;
+  height: 120px;
 }
-.block__aktualnosci__inner__content__excerpt {
+.block__aktualnosci__inner__content__excertp {
+  font-size: 0.8636363636rem;
+}
+.block__aktualnosci__inner__content__excerpt, .block__aktualnosci__inner__content h4, .block__aktualnosci__inner__content .h4 {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 5; /* number of lines to show */
-  line-clamp: 5;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  line-clamp: 4;
   -webkit-box-orient: vertical;
-  font-size: 0.8636363636rem;
 }
 .block__products-home__overlay {
   padding: 50px;
@@ -12382,6 +12426,11 @@ html :where(.wp-block) {
 }
 
 /* IMPORT RESPONSIVE */
+@media screen and (max-width: 1600px) {
+  .block__poznaj__single__wrapper:nth-of-type(2n)::before, .block__poznaj__single__wrapper:nth-of-type(2n)::after {
+    display: none;
+  }
+}
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1400px;

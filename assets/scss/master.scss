@@ -63,6 +63,7 @@ html :where(.wp-block){
             top: 50px;
             opacity: 0;
             visibility: hidden;
+            z-index: 10;
             @include transition();
             &::before{
               content: '';

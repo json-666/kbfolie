@@ -23,7 +23,7 @@ $blockID =  substr($block['id'], 0, 12);
 // Load values and assign defaults.
 $fields = get_fields();
 ?>
-<section class="<?php echo $class_name; ?>">
+<section class="<?php echo $class_name; ?>" <?php echo $anchor; ?>>
     <div class="container">
         <h2 class="kbf__title-2 fc-orange mt-3 text-uppercase"><?php echo $fields['tytul']; ?></h2>
         <div class="container p-5 ">
