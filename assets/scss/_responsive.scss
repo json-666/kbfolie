@@ -10,6 +10,9 @@
   .container-large{
     max-width: 1600px;
   }
+  .container-small{
+    max-width: 1024px;
+  }
   html{
     font-size: 22px !important;
   }
@@ -66,5 +69,11 @@
         }
       }
     }
+  }
+}
+@media screen and (max-width: 678px){
+  .icons{
+    max-width: 70%;
+    margin: auto;
   }
 }

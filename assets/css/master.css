@@ -12417,6 +12417,33 @@ html :where(.wp-block) {
   background: rgba(255, 255, 255, 0.7);
   padding: 32px 66px;
 }
+.block__produkty__single__section__content img {
+  padding-left: 90px;
+  max-width: 80%;
+}
+.block__produkty__single__section ul > li {
+  font-size: 0.9090909091rem;
+  list-style-type: none;
+  position: relative;
+  padding-left: 38px;
+  line-height: 1.2rem;
+}
+.block__produkty__single__section ul > li:not(.block__produkty__single__section ul > li:first-of-type) {
+  margin-top: 35px;
+}
+.block__produkty__single__section ul > li::before {
+  content: "";
+  background-size: contain;
+  background: url(../../images/icon_list_item_single_cmz.svg) no-repeat center;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  height: 20px;
+  width: 20px;
+}
+.block__produkty__single__title {
+  background: linear-gradient(30deg, #FF8A00, #FFBA00);
+}
 
 .single__featured {
   height: 600px;
@@ -12437,6 +12464,9 @@ html :where(.wp-block) {
   }
   .container-large {
     max-width: 1600px;
+  }
+  .container-small {
+    max-width: 1024px;
   }
   html {
     font-size: 22px !important;
@@ -12532,6 +12562,12 @@ html :where(.wp-block) {
   }
   .block__localization__map > iframe {
     height: 300px;
+  }
+}
+@media screen and (max-width: 678px) {
+  .icons {
+    max-width: 70%;
+    margin: auto;
   }
 }
 

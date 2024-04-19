@@ -1,0 +1,15 @@
+{
+  "name": "kbf/praca",
+  "title": "KBFolie - Praca (Praca w KBFolie)",
+  "description": "Blok wyświetlający treści dla sekcji 'Praca'",
+  "category": "kbfolie",
+  "apiVersion": 2,
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "blocks/kbf-praca/kbf-praca.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true
+  }
+}

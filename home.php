@@ -10,7 +10,7 @@
                         <?php
                             $postsCount = $category->category_count > 9 ? $category->category_count : "0" . $category->category_count;
                         ?>
-                        <a href="#<?php echo $category->slug; ?>" class="fc-black d-block text-decoration-none"><?php echo $category->name; ?> (<?php echo $postsCount ?>)</a>
+                        <a href="#<?php echo $category->slug; ?>" class="fc-black fw-600 d-block text-decoration-none"><?php echo $category->name; ?> (<?php echo $postsCount ?>)</a>
                     <?php endforeach; ?>
                 </div>
             </div>

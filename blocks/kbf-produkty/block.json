@@ -1,0 +1,15 @@
+{
+  "name": "kbf/produkty",
+  "title": "KBFolie - Sekcja produktu (storna Produkty)",
+  "description": "Blok wyświetlający pojedynczą sekcję produktu na stronie 'Produkty'",
+  "category": "kbfolie",
+  "apiVersion": 2,
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "blocks/kbf-produkty/kbf-produkty.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true
+  }
+}
