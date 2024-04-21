@@ -24,6 +24,12 @@ if (! defined('_VERSION')) {
  */
 function setup():void
 {
+    /**
+     * Add variable for global lorem ipsum. This stuff is displayed whenever block space has no content, and it should.
+     *
+     * @branch feature/eko
+     */
+    define('_LOREM', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus malesuada elit, nec gravida risus sodales at. Praesent at mauris in leo bibendum efficitur sit amet sollicitudin massa. Nulla sit amet porta felis. Praesent ullamcorper sapien ex. Curabitur commodo, nulla molestie venenatis lobortis, arcu libero semper lectus, ut porta augue diam tempus nunc. In bibendum augue sed urna pellentesque malesuada. Integer fringilla consequat nulla, id gravida sapien tincidunt quis. Praesent non ex sed justo placerat accumsan ac ac arcu. Phasellus faucibus orci at diam tincidunt, quis vulputate lacus vehicula. Duis lacinia diam ex, quis hendrerit tellus sollicitudin id. Etiam in tincidunt sapien. Quisque eget neque aliquam, tristique arcu quis, sagittis enim.');
 	/**
 	 * Let WordPress manage the document title.
 	 */

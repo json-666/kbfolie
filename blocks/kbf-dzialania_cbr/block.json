@@ -1,0 +1,15 @@
+{
+  "name": "kbf/dzialania",
+  "title": "KBFolie - Działania w CBR (CBR)",
+  "description": "Blok wyświetlający treść seckji 'Nasze działania w CBR'",
+  "category": "kbfolie",
+  "apiVersion": 2,
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "blocks/kbf-dzialania_cbr/kbf-dzialania_cbr.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true
+  }
+}
