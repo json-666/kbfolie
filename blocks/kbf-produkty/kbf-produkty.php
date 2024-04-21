@@ -28,6 +28,7 @@ $fields = get_fields();
         <div class="block__produkty__single__title p-3 mb-5">
             <h2 class="fc-white fs-30 fw-700 mb-0 text-uppercase"><?php echo $fields['tytul_sekcji'] ?? 'Lorme Ipsum' ?></h2>
         </div>
+        <?php $i = 0; ?>
         <?php foreach($fields['sekcje'] as $section): ?>
             <div class="block__produkty__single__section">
                 <div class="row justify-content-between">
@@ -40,8 +41,8 @@ $fields = get_fields();
                             <?php endif; ?>
                         </div>
                     </div>
-                    <div class="col-xxl-3 col-md-4 col-12 text-center">
-                        <img src="<?php echo $section['obraz_po_prawej']['url'] ?? '' ?>" alt="<?php echo $section['obraz_po_prawej']['alt'] ?? '' ?>" class="w-100 icons">
+                    <div class="col-xxl-3 col-md-4 col-12 text-center p-lg-0">
+                        <img src="<?php echo $section['obraz_po_prawej']['url'] ?? '' ?>" alt="<?php echo $section['obraz_po_prawej']['alt'] ?? '' ?>" class="w-100 icons" style="max-width: fit-content">
                     </div>
                 </div>
 
@@ -49,6 +50,10 @@ $fields = get_fields();
                     <img src="<?php echo $section['obraz_na_dole']['url'] ?? '' ?>" alt="<?php echo $section['obraz_na_dole']['alt'] ?? '' ?>" class="w-100 mt-4">
                 <?php endif; ?>
             </div>
+            <?php if(count($fields['sekcje']) > 1 && ($i+1) < count($fields['sekcje'])): ?>
+                <div class="border-top border-2 border-orange my-5"></div>
+            <?php endif; ?>
+            <?php $i++; ?>
         <?php endforeach; ?>
     </div>
 </section>

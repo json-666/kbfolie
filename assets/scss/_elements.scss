@@ -96,3 +96,35 @@
 figure.w-100 > img{
   width: 100%;
 }
+.kbf{
+  &-list{
+    & > li {
+      font-size: toRem(20);
+      list-style-type: none;
+      position: relative;
+      padding-left: 38px;
+      line-height: 1.2rem;
+      &:not(&:first-of-type){
+        margin-top: 20px;
+      }
+      &::before {
+        content: '';
+        background-size: contain;
+        background: url(../../images/icon_list_item_single_cmz.svg) no-repeat center;
+        position: absolute;
+        left: 0;
+        top: 5px;
+        height: 20px;
+        width: 20px;
+      }
+    }
+    &.orange > li{
+      &::before{
+        background: url(../../images/orange-list-item.svg) no-repeat center;
+      }
+    }
+  }
+  &-mw-fit{
+    max-width: fit-content;
+  }
+}

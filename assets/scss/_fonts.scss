@@ -13,6 +13,13 @@
       }
     }
   }
+  &w{
+    @for $w from 1 through 8{
+      &-#{$w*100}-overwrite{
+        font-weight: #{$w*100} !important;
+      }
+    }
+  }
   &c{
     @each $colorName,$colorHex in $colors {
       &-#{$colorName}{
