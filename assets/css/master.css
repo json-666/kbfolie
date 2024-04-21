@@ -12145,13 +12145,15 @@ fs-11 {
   display: block;
   width: 20px;
   height: 20px;
-  background-image: url("../../images/mail.png");
+  background-image: url("../../images/mail.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   position: absolute;
   left: -35px;
   align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .icone-phone {
@@ -12163,13 +12165,15 @@ fs-11 {
   display: block;
   width: 20px;
   height: 20px;
-  background-image: url("../../images/phone.png");
+  background-image: url("../../images/phone.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   position: absolute;
   left: -35px;
   align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 figure.w-100 > img {
@@ -12539,6 +12543,7 @@ html :where(.wp-block) {
 .block__mission {
   background-image: url(../../images/bg_mission.png);
   background-size: cover;
+  padding-bottom: 100px;
 }
 .block__mission__column {
   position: relative;
@@ -12645,18 +12650,10 @@ html :where(.wp-block) {
     right: 0px;
     display: inline-block;
   }
-  .block__contacts .icone-mail::before {
-    top: 50%;
-    transform: translateY(-50%);
-  }
   .block__contacts .icone-phone {
     position: relative;
     right: 0px;
     display: inline-block;
-  }
-  .block__contacts .icone-phone::before {
-    top: 50%;
-    transform: translateY(-50%);
   }
   .block__localization {
     text-align: center;
@@ -12666,18 +12663,10 @@ html :where(.wp-block) {
     right: 0px;
     display: inline-block;
   }
-  .block__localization .icone-mail::before {
-    top: 50%;
-    transform: translateY(-50%);
-  }
   .block__localization .icone-phone {
     position: relative;
     right: 0px;
     display: inline-block;
-  }
-  .block__localization .icone-phone::before {
-    top: 50%;
-    transform: translateY(-50%);
   }
   .block__localization__map > iframe {
     height: 300px;

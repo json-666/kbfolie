@@ -96,6 +96,8 @@
       position: absolute;
       left: -35px;
       align-items: center;
+      top: 50%;
+      transform: translateY(-50%);
     }
   }
 }
