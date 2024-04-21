@@ -11854,6 +11854,9 @@ textarea.form-control-lg {
 .fs-45, h1, .h1 {
   font-size: 2.0454545455rem;
 }
+.fs-40, .kbf__title-3 {
+  font-size: 1.8181818182rem;
+}
 .fs-35, h2, .h2 {
   font-size: 1.5909090909rem;
 }
@@ -11956,6 +11959,12 @@ textarea.form-control-lg {
 .fc-green {
   color: #058536;
 }
+.fc-vibrant-green {
+  color: #5EAE2D;
+}
+.fc-dark-green {
+  color: #005C1F;
+}
 
 fs-48 {
   font-size: 48px;
@@ -11963,6 +11972,10 @@ fs-48 {
 
 fs-45 {
   font-size: 45px;
+}
+
+fs-40 {
+  font-size: 40px;
 }
 
 fs-35 {
@@ -12033,6 +12046,12 @@ fs-11 {
 .border-green {
   border-color: #058536 !important;
 }
+.border-vibrant-green {
+  border-color: #5EAE2D !important;
+}
+.border-dark-green {
+  border-color: #005C1F !important;
+}
 
 .bg-white {
   background: #fff !important;
@@ -12045,6 +12064,12 @@ fs-11 {
 }
 .bg-green {
   background: #058536 !important;
+}
+.bg-vibrant-green {
+  background: #5EAE2D !important;
+}
+.bg-dark-green {
+  background: #005C1F !important;
 }
 
 .btn-primary:not(:has(a)), .btn-primary > a {
@@ -12103,6 +12128,10 @@ fs-11 {
   width: 50%;
 }
 .kbf__title-2 {
+  position: relative;
+  text-align: center;
+}
+.kbf__title-3 {
   position: relative;
   text-align: center;
 }
@@ -12506,6 +12535,27 @@ html :where(.wp-block) {
 }
 .block__dzialania {
   background: linear-gradient(30deg, #FF8A00, #FFBA00);
+}
+.block__mission {
+  background-image: url(../../images/bg_mission.png);
+  background-size: cover;
+}
+.block__mission__column {
+  position: relative;
+  background-color: rgba(245, 245, 245, 0.7);
+  border: 6px solid #5EAE2D;
+  border-radius: 50px;
+  height: 100%;
+}
+.block__mission__column__list li {
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.block__mission__column__icon {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: -110px;
 }
 
 .single__featured {

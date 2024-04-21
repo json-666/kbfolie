@@ -1,0 +1,15 @@
+{
+  "name": "kbf/misja",
+  "title": "KBFolie - Misja",
+  "description": "Blok wyświetlający sekcję Misja",
+  "category": "kbfolie",
+  "apiVersion": 2,
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "blocks/kbf-mission/kbf-mission.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true
+  }
+}
