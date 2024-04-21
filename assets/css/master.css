@@ -12170,6 +12170,9 @@ figure.w-100 > img {
 .kbf-list.orange > li::before {
   background: url(../../images/orange-list-item.svg) no-repeat center;
 }
+.kbf-list.green > li::before {
+  background: url(../../images/green-lsit-item.svg) no-repeat center;
+}
 .kbf-mw-fit {
   max-width: fit-content;
 }
@@ -12468,6 +12471,12 @@ html :where(.wp-block) {
   background: rgba(255, 255, 255, 0.7);
   padding: 32px 66px;
 }
+.block__produkty.eko .block__produkty__single__title {
+  background: linear-gradient(90deg, #008337, #95C11F);
+}
+.block__produkty.eko .block__produkty__single__section ul > li::before {
+  background: url(../../images/green-lsit-item.svg) no-repeat center;
+}
 .block__produkty__single__section__content img {
   padding-left: 90px;
   max-width: 80%;
@@ -12493,6 +12502,9 @@ html :where(.wp-block) {
   width: 20px;
 }
 .block__produkty__single__title {
+  background: linear-gradient(30deg, #FF8A00, #FFBA00);
+}
+.block__dzialania {
   background: linear-gradient(30deg, #FF8A00, #FFBA00);
 }
 
@@ -12529,6 +12541,12 @@ html :where(.wp-block) {
   }
 }
 @media screen and (max-width: 992px) {
+  .position-lg-absolute {
+    position: initial !important;
+  }
+  .rounded-lg-5 {
+    border-radius: 40px !important;
+  }
   .block__contacts__line-0 {
     border: 1px solid #FFA800;
     opacity: 1;

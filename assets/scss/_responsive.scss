@@ -24,6 +24,12 @@
 }
 
 @media screen and (max-width: 992px){
+  .position-lg-absolute{
+    position: initial !important;
+  }
+  .rounded-lg-5{
+    border-radius: 40px !important;
+  }
   .block {
     &__contacts {
       @for $w from 0 through 7 {

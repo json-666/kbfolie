@@ -31,7 +31,7 @@ $fields = get_fields();
         <?php $i = 0; ?>
         <?php foreach($fields['sekcje'] as $section): ?>
             <div class="block__produkty__single__section">
-                <div class="row justify-content-between">
+                <div class="row justify-content-between align-items-center">
                     <div class="col-md-8 col-12">
                         <div class="fs-20 block__produkty__single__section__content">
                             <?php echo $section['tresc'] ?? '' ?>

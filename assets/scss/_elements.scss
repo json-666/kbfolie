@@ -123,6 +123,11 @@ figure.w-100 > img{
         background: url(../../images/orange-list-item.svg) no-repeat center;
       }
     }
+    &.green > li{
+      &::before{
+        background: url(../../images/green-lsit-item.svg) no-repeat center;
+      }
+    }
   }
   &-mw-fit{
     max-width: fit-content;

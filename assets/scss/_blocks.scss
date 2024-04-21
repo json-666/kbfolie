@@ -181,6 +181,16 @@
     }
   }
   &__produkty{
+    &.eko{
+      .block__produkty__single{
+        &__title {
+          background: linear-gradient(90deg, #008337, #95C11F);
+        }
+      }
+      .block__produkty__single__section ul > li::before{
+        background: url(../../images/green-lsit-item.svg) no-repeat center;
+      }
+    }
     &__single{
       &__section{
         &__content{
@@ -214,5 +224,8 @@
         background: linear-gradient(30deg, #FF8A00, #FFBA00);
       }
     }
+  }
+  &__dzialania{
+    background: linear-gradient(30deg, #FF8A00, #FFBA00);
   }
 }
