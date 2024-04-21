@@ -215,4 +215,27 @@
       }
     }
   }
+  &__mission{
+    background-image: url(../../images/bg_mission.png);
+    background-size: cover;
+    &__column{
+      position: relative;
+      background-color: rgba($color: #F5F5F5, $alpha: 0.7);
+      border: 6px solid map-get($colors, 'vibrant-green');
+      border-radius: 50px;
+      height: 100%;
+      &__list{
+        li {
+          line-height: 1;
+          margin-bottom: 20px;
+        }
+      }
+      &__icon{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: -110px;
+      }
+    }
+  }
 }

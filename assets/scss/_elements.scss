@@ -72,6 +72,12 @@
     @extend .fs-30;
     @extend .fw-500;
   }
+  &__title-3{
+    position: relative;
+    text-align: center;
+    @extend .fs-40;
+    @extend .fw-600
+  }
 }
 
 @each $name, $url in $icons {
