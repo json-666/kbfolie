@@ -11920,6 +11920,30 @@ textarea.form-control-lg {
 .fw-800 {
   font-weight: 800;
 }
+.fw-100-overwrite {
+  font-weight: 100 !important;
+}
+.fw-200-overwrite {
+  font-weight: 200 !important;
+}
+.fw-300-overwrite {
+  font-weight: 300 !important;
+}
+.fw-400-overwrite {
+  font-weight: 400 !important;
+}
+.fw-500-overwrite {
+  font-weight: 500 !important;
+}
+.fw-600-overwrite {
+  font-weight: 600 !important;
+}
+.fw-700-overwrite {
+  font-weight: 700 !important;
+}
+.fw-800-overwrite {
+  font-weight: 800 !important;
+}
 .fc-white {
   color: #fff;
 }
@@ -12121,6 +12145,33 @@ fs-11 {
 
 figure.w-100 > img {
   width: 100%;
+}
+
+.kbf-list > li {
+  font-size: 0.9090909091rem;
+  list-style-type: none;
+  position: relative;
+  padding-left: 38px;
+  line-height: 1.2rem;
+}
+.kbf-list > li:not(.kbf-list > li:first-of-type) {
+  margin-top: 20px;
+}
+.kbf-list > li::before {
+  content: "";
+  background-size: contain;
+  background: url(../../images/icon_list_item_single_cmz.svg) no-repeat center;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  height: 20px;
+  width: 20px;
+}
+.kbf-list.orange > li::before {
+  background: url(../../images/orange-list-item.svg) no-repeat center;
+}
+.kbf-mw-fit {
+  max-width: fit-content;
 }
 
 html, body {
