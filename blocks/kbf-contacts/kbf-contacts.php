@@ -38,7 +38,7 @@ $fields = get_fields();
                             <p class="lh-1 fs-20 fw-600 mb-3"><?php echo $contacts['imie']; ?></p>
                             <p class="icone-phone lh-1 fs-20 fw-300 mb-2 align-content-center"><?php echo $contacts['telefon']; ?></p>
                             <p class="d-block d-lg-none p-0 m-0"></p>
-                            <p class="icone-mail lh-1 fs-20 fw-300 mb-0"><?php echo $contacts['mail']; ?></p>
+                            <p class="icone-mail lh-1 fs-20 fw-300 mb-0 align-content-center"><?php echo $contacts['mail']; ?></p>
                         </div>
                     </div>
                     <hr class="block__contacts__line-<?php echo $index; ?> p-0">

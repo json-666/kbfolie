@@ -228,6 +228,7 @@
   &__mission{
     background-image: url(../../images/bg_mission.png);
     background-size: cover;
+    padding-bottom: 100px;
     &__column{
       position: relative;
       background-color: rgba($color: #F5F5F5, $alpha: 0.7);
