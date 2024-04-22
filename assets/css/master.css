@@ -11914,7 +11914,7 @@ textarea.form-control-lg {
 .fw-500, .kbf__title-2 {
   font-weight: 500;
 }
-.fw-600, .page__header__navigation ul li a {
+.fw-600, .page__header__navigation ul li a, .kbf__title-3 {
   font-weight: 600;
 }
 .fw-700, .kbf__title {
@@ -12311,6 +12311,15 @@ html :where(.wp-block) {
 }
 .block__categories__image {
   height: 400px;
+  transition: all 0.2s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .block__categories__image {
+    transition: none;
+  }
+}
+.block__categories__image:hover {
+  transform: scale(1.05);
 }
 .block__poznaj {
   background-image: url(../../images/telko22.png);
@@ -12533,9 +12542,6 @@ html :where(.wp-block) {
 .block__produkty__single__title {
   background: linear-gradient(30deg, #FF8A00, #FFBA00);
 }
-.block__dzialania {
-  background: linear-gradient(30deg, #FF8A00, #FFBA00);
-}
 .block__mission {
   background-image: url(../../images/bg_mission.png);
   background-size: cover;
@@ -12591,11 +12597,46 @@ html :where(.wp-block) {
   }
 }
 @media screen and (max-width: 992px) {
+  .page__header__navigation {
+    background: white;
+    position: absolute;
+    width: 100%;
+    right: -100%;
+    padding: 20px;
+    z-index: 10;
+    transition: 0.5s;
+  }
+}
+@media screen and (max-width: 992px) and (prefers-reduced-motion: reduce) {
+  .page__header__navigation {
+    transition: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .page__header__navigation.is-active {
+    right: 0;
+  }
+  .page__header__navigation ul {
+    display: block;
+    padding-left: 0;
+  }
+  .page__header__navigation ul > li {
+    margin: 10px 0;
+  }
+  .page__header__navigation ul > li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+  }
   .position-lg-absolute {
     position: initial !important;
   }
   .rounded-lg-5 {
     border-radius: 40px !important;
+  }
+  .block__categories__image {
+    height: auto;
   }
   .block__contacts__line-0 {
     border: 1px solid #FFA800;

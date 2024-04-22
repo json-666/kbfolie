@@ -153,3 +153,5 @@ function kbf_add_co_mozemy_zapakowac_post_type() {
 }
 add_action( 'init', 'kbf_add_co_mozemy_zapakowac_post_type' );
 add_post_type_support( 'cozapakowac', 'thumbnail' );
+
+add_filter('show_admin_bar', '__return_false');

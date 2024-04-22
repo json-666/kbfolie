@@ -24,6 +24,31 @@
 }
 
 @media screen and (max-width: 992px){
+  .page__header__navigation{
+    background: white;
+    position: absolute;
+    width: 100%;
+    right: -100%;
+    padding: 20px;
+    z-index: 10;
+    @include transition(.5s);
+    &.is-active{
+      right: 0;
+    }
+    ul{
+      display: block;
+      padding-left: 0;
+      & > li{
+        margin: 10px 0;
+        a{
+          font-size: 20px;
+          line-height: 40px;
+          display: block;
+          text-align: center;
+        }
+      }
+    }
+  }
   .position-lg-absolute{
     position: initial !important;
   }
@@ -31,6 +56,11 @@
     border-radius: 40px !important;
   }
   .block {
+    &__categories{
+      &__image{
+        height: auto;
+      }
+    }
     &__contacts {
       @for $w from 0 through 7 {
         &__line-#{$w} {

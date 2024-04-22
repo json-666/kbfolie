@@ -16,6 +16,10 @@
   &__categories{
     &__image{
       height: 400px;
+      @include transition();
+      &:hover{
+        transform: scale(1.05);
+      }
     }
   }
   &__poznaj{
