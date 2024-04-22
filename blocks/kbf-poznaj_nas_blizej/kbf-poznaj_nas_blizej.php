@@ -29,7 +29,7 @@ $fields = get_fields();
         <div class="mt-5 mb-3 row">
             <?php foreach($fields['ikony'] as $ikona): ?>
                 <div class="col my-3 p-0 block__poznaj__single__wrapper">
-                    <div class="block__poznaj__si4ngle d-flex justify-content-center">
+                    <div class="block__poznaj__single d-flex justify-content-center">
                         <img src="<?php echo $ikona['ikona']['url'] ?>" alt="<?php echo $ikona['ikona']['alt'] ?>">
                     </div>
                     <div class="text-center mt-2">
