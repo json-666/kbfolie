@@ -12309,6 +12309,9 @@ html :where(.wp-block) {
   height: 100vh;
   z-index: -1;
 }
+.block__dzialania {
+  background: linear-gradient(30deg, #FF8A00, #FFBA00);
+}
 .block__categories__image {
   height: 400px;
   transition: all 0.2s ease-in-out;

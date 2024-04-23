@@ -13,6 +13,9 @@
       z-index: -1;
     }
   }
+  &__dzialania {
+    background: linear-gradient(30deg, #FF8A00, #FFBA00);
+  }
   &__categories{
     &__image{
       height: 400px;
