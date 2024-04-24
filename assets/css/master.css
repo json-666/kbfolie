@@ -12518,6 +12518,9 @@ html :where(.wp-block) {
 .block__produkty.eko .block__produkty__single__section ul > li::before {
   background: url(../../images/green-lsit-item.svg) no-repeat center;
 }
+.block__produkty__single__section__content a {
+  color: inherit !important;
+}
 .block__produkty__single__section__content img {
   padding-left: 90px;
   max-width: 80%;

@@ -201,6 +201,9 @@
     &__single{
       &__section{
         &__content{
+          a{
+            color: inherit !important;
+          }
           img{
             padding-left: 90px;
             max-width: 80%;
