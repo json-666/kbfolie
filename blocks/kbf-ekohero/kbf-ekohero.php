@@ -42,7 +42,7 @@ $fields = get_fields();
                     <div class="col-lg-6 mt-5 mt-sm-4">
                         <div class="row justify-content-center justify-content-lg-evenly <?php if($item['czy_wysrodkowac_tekst']){echo "align-items-center";} ?>">
                             <div class="col-auto"><img src="<?php echo $item['cel']['url'] ?>" alt="<?php echo $item['cel']['alt'] ?>" style="width: 135px;"></div>
-                            <div class="col-8">
+                            <div class="col-8 text-center text-sm-start">
                                 <p class="fs-20 fs-400 mb-0 text-center text-sm-start"><?php echo $item['opis'] ?></p>
                             </div>
                         </div>
