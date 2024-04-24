@@ -155,3 +155,16 @@ add_action( 'init', 'kbf_add_co_mozemy_zapakowac_post_type' );
 add_post_type_support( 'cozapakowac', 'thumbnail' );
 
 add_filter('show_admin_bar', '__return_false');
+
+/**
+ * disable wordpress images permalinks
+ */
+function remove_media_link( $form_fields, $post ) {
+
+    unset( $form_fields['url'] );
+
+    return $form_fields;
+
+}
+
+add_filter( 'attachment_fields_to_edit', 'remove_media_link', 10, 2 );
