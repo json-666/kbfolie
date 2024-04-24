@@ -1,0 +1,15 @@
+{
+  "name": "kbf/snake",
+  "title": "KBFolie - Blok strony 'Produkcja'",
+  "description": "Blok wyświetlający treść na stronie 'Produkcja'",
+  "category": "kbfolie",
+  "apiVersion": 2,
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "blocks/kbf-snake/kbf-snake.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true
+  }
+}

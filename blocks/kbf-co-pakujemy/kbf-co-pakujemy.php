@@ -33,7 +33,7 @@ $fields = get_fields();
 </style>
 <section class="<?php echo $class_name; ?>">
     <div class="container my-5">
-        <h2 class="kbf__title-2 fc-orange mt-3 mb-0 text-uppercase">Co możemy zapakować</h2>
+        <h2 class="kbf__title-2 fc-orange mt-3 mb-0 text-uppercase"><a class="fc-orange text-decoration-none" href="<?php echo get_home_url() ?>#co-mozemy-zapakowac">Co możemy zapakować</a></h2>
         <div class="block__copakujemy-single__title text-center my-3">
             <div class="block__copakujemy-single__title__inner d-inline-block">
                 <h3 class="m-0 lh-1 text-uppercase fw-600"><?php echo get_the_title(); ?></h3>
@@ -43,7 +43,7 @@ $fields = get_fields();
 
     <div class="container px-lg-5">
         <div class="row">
-            <div class="col-8">
+            <div class="col-lg-8 col-12">
                 <?php foreach($fields['tresci'] as $item): ?>
                 <div class="block__copakujemy-single__content-item border-bottom border-2 border-orange">
                     <h4 class="fs-22 fw-800 text-uppercase"><?php echo $item['tytul'] ?></h4>
@@ -55,7 +55,7 @@ $fields = get_fields();
                 </div>
                 <?php endforeach; ?>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-12">
                 <?php foreach($fields['obrazki'] as $item): ?>
                     <img src="<?php echo $item['obraz']['url'] ?>" alt="<?php echo $item['obraz']['alt'] ?>" class="w-100 my-3">
                 <?php endforeach; ?>

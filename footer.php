@@ -2,22 +2,22 @@
     <section class="border-top border-1 border-black">
         <div class="container">
             <div class="row align-items-center justify-content-center justify-content-lg-between py-2">
-                <div class="col-lg-auto col-sm-3 col-6 ps-lg-0 mx-auto">
+                <div class="col-lg-auto col-sm-3 col-4 ps-lg-0 mx-auto">
                     <a href="<?php echo get_home_url(); ?>">
                         <img src="<?php echo esc_url(wp_get_attachment_image_src(get_theme_mod('custom_logo'), 'full')[0]); ?>" alt="KBFolie Logo" class="w-100 kbf-mx-fit">
                     </a>
                 </div>
-                <div class="col-lg-2 col-sm-4 mt-sm-4 col-12 text-center text-sm-start">
+                <div class="col-lg-2 col-sm-4 mt-sm-4 mt-5 col-12 text-center text-sm-start">
                     <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">FIRMA</a>
                     <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">PRODUKCJA</a>
                     <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">PRODUKTY</a>
                 </div>
-                <div class="col-lg-2 col-sm-4 mt-sm-4 col-12 text-center text-sm-start">
+                <div class="col-lg-2 col-sm-4 mt-sm-4 mt-2 col-12 text-center text-sm-start">
                     <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">CBR</a>
                     <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">BLOG</a>
                     <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">KONTAKT</a>
                 </div>
-                <div class="col-sm-4 col-12 mt-sm-4 text-center text-sm-start">
+                <div class="col-sm-4 col-12 mt-sm-4 mb-5 mb-sm-0 text-center text-sm-start">
                     <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">
                         Ochrona danych osobowych
                     </a>
@@ -26,7 +26,7 @@
                     </a>
                     <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">RODO</a>
                 </div>
-                <div class="col pe-lg-0 mt-sm-4">
+                <div class="col pe-lg-0 mt-sm-4 mb-5 mb-sm-0">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/ueA1.png" alt="" class="w-100">
                 </div>
             </div>

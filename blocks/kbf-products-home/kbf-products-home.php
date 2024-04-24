@@ -23,9 +23,9 @@ $blockID =  substr($block['id'], 0, 12);
 // Load values and assign defaults.
 $fields = get_fields();
 ?>
-<section class="<?php echo $class_name; ?>">
+<section class="<?php echo $class_name; ?>" <?php echo $anchor; ?>>
     <div class="mb-3">
-        <h2 class="kbf__title mark-40"><?php echo $fields['categories-home']; ?></h2>
+        <h2 class="kbf__title mark-30"><?php echo $fields['categories-home']; ?></h2>
     </div>
     <div class="container">
         <div class="row">

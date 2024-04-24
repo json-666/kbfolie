@@ -21,7 +21,7 @@ $inner_blocks_template =[
 		['core/button', ['placeholder' => 'Add link text...']],
 	]];
 ?>
-<section class="block__container <?php echo $block['className']; ?>" <?php echo $anchor; ?>>
+<section class="block__container" <?php echo $anchor; ?>>
 	<div class="container">
 		<InnerBlocks template="<?php echo esc_attr(wp_json_encode($inner_blocks_template));?>" />
 	</div>

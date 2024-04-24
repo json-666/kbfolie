@@ -27,7 +27,7 @@ $fields = get_fields();
     <div class="container">
         <div class="row justify-content-center">
             <?php foreach ($fields['kategorie'] as $categories): ?>
-                <div class="col-lg-4 col-md-6 col-12 my-5 my-md-0">
+                <div class="col-lg-4 col-md-6 col-12 my-3 my-md-0">
                     <a href="<?php echo $categories['link'] ?>" class="d-block text-decoration-none fc-black">
                         <div class="block__categories__image ">
                             <img src="<?php echo $categories['obrazek']['url'] ?>" alt="<?php echo $categories['obrazek']['alt'] ?>" class="w-100">

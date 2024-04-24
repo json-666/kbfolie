@@ -12600,6 +12600,9 @@ html :where(.wp-block) {
   }
 }
 @media screen and (max-width: 992px) {
+  .kbf__title.mark-30::after, .kbf__title.mark-30::before {
+    width: 10%;
+  }
   .page__header__navigation {
     background: white;
     position: absolute;
@@ -12731,6 +12734,16 @@ html :where(.wp-block) {
   .icons {
     max-width: 70%;
     margin: auto;
+  }
+  .block__poznaj__single img {
+    width: 80px;
+  }
+  block__poznaj__single {
+    width: 200px;
+    height: 200px;
+  }
+  .kbf__title.mark-40::after, .kbf__title.mark-40::before {
+    width: 5%;
   }
 }
 

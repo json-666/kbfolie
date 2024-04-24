@@ -33,7 +33,7 @@ $fields = get_fields();
                         <div class="col-md-12 col-lg-4 text-center p-0">
                             <img src="<?php echo $contacts['obrazek']['url'] ?>" alt="<?php echo $contacts['obrazek']['alt'] ?>">
                         </div>
-                        <div class="block__contacts__person col-md-12 col-lg-8 align-content-center mt-sm-4 mt-lg-0">
+                        <div class="block__contacts__person col-md-12 col-lg-8 align-content-center mt-4 mt-lg-0">
                             <p class="lh-1 fs-23 fw-700 mb-3 p-0"><?php echo $contacts['stanowisko']; ?></p>
                             <p class="lh-1 fs-20 fw-600 mb-3"><?php echo $contacts['imie']; ?></p>
                             <p class="icone-phone lh-1 fs-20 fw-300 mb-2 align-content-center"><?php echo $contacts['telefon']; ?></p>

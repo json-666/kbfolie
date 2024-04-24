@@ -5,6 +5,11 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<?php wp_head(); ?>
 	<style>
+        @media screen and (max-width: 767px){
+            #pojo-a11y-toolbar {
+                top: 80px !important;
+            }
+        }
         img{
             max-width: 100%;
         }
@@ -39,11 +44,11 @@
         </div>
 	</header>
     <script>
-        Array.from(document.querySelector('#primary-menu').children).forEach((e)=>{
-            if(e.classList.contains('menu-item-has-children')){
-                e.children[0].href='javascript:void(0)'
-            }
-        });
+        // Array.from(document.querySelector('#primary-menu').children).forEach((e)=>{
+        //     if(e.classList.contains('menu-item-has-children')){
+        //         e.children[0].href='javascript:void(0)'
+        //     }
+        // });
         document.querySelector('.hamburger').addEventListener('click',(x)=>{
             document.querySelector('.hamburger').classList.toggle('is-active');
             document.querySelector('.page__header__navigation').classList.toggle('is-active');

@@ -1,0 +1,15 @@
+{
+  "name": "kbf/timeline",
+  "title": "KBFolie - Linia czasu",
+  "description": "Blok wyświetlający linię czasu - krótki rys historyczny",
+  "category": "kbfolie",
+  "apiVersion": 2,
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "blocks/kbf-timeline/kbf-timeline.php"
+  },
+  "supports": {
+    "anchor": true,
+    "jsx": true
+  }
+}
