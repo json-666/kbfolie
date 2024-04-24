@@ -20,6 +20,12 @@
         body{
             font-family: "Montserrat", serif;
         }
+        .menu-mobile-open-submenu svg{
+            transition: .5s all;
+        }
+        .menu-mobile-open-submenu.is-active svg{
+            transform: rotate(180deg);
+        }
 	</style>
 </head>
 
@@ -48,7 +54,7 @@
             if(e.classList.contains('menu-item-has-children')){
                 e.classList.add('text-center');
                 e.children[0].classList.add('d-inline-block')
-                e.children[0].insertAdjacentHTML('afterend', '<span class="ps-3 d-lg-none" style="transition: .5s all;" onclick="openSubmenu(this)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16"><path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg></span>')
+                e.children[0].insertAdjacentHTML('afterend', '<span class="ps-3 d-lg-none menu-mobile-open-submenu" style="position: relative;top: -3px;transition: .5s all;" onclick="openSubmenu(this)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16"><path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg></span>')
             }
         });
         document.querySelector('.hamburger').addEventListener('click',(x)=>{
@@ -57,6 +63,8 @@
         });
 
         function openSubmenu(x){
-            console.log(x)
+            console.log(x);
+            x.classList.toggle('is-active');
+            x.nextElementSibling.classList.toggle('is-active');
         }
     </script>

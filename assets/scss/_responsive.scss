@@ -23,6 +23,10 @@
   }
 }
 @media screen and (max-width: 992px){
+  .page__header__navigation ul li > .sub-menu.is-active{
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
   .page__header__navigation ul li:hover > .sub-menu{
     visibility: hidden;
     opacity: 0;
