@@ -12548,6 +12548,7 @@ html :where(.wp-block) {
 .block__mission {
   background-image: url(../../images/bg_mission.png);
   background-size: cover;
+  background-position: center;
 }
 .block__mission__column {
   position: relative;
