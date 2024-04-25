@@ -23,6 +23,13 @@
   }
 }
 @media screen and (max-width: 992px){
+  .page__header__navigation ul li .sub-menu li > a{
+    font-size: 1.5rem;
+    line-height: 4rem;
+  }
+  .page__header__navigation ul li > .sub-menu{
+    width: 100%;
+  }
   .page__header__navigation ul li > .sub-menu.is-active{
     visibility: visible !important;
     opacity: 1 !important;
@@ -52,7 +59,7 @@
         margin: 10px 0;
         a{
           font-size: 20px;
-          line-height: 40px;
+          line-height: 60px;
           display: block;
           text-align: center;
         }
