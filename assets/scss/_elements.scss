@@ -126,11 +126,13 @@ figure.w-100 > img{
     }
     &.orange > li{
       &::before{
+        top: 0;
         background: url(../../images/orange-list-item.svg) no-repeat center;
       }
     }
     &.green > li{
       &::before{
+        top: 0;
         background: url(../../images/green-lsit-item.svg) no-repeat center;
       }
     }

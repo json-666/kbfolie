@@ -12197,9 +12197,11 @@ figure.w-100 > img {
   width: 20px;
 }
 .kbf-list.orange > li::before {
+  top: 0;
   background: url(../../images/orange-list-item.svg) no-repeat center;
 }
 .kbf-list.green > li::before {
+  top: 0;
   background: url(../../images/green-lsit-item.svg) no-repeat center;
 }
 .kbf-mw-fit {
@@ -12517,6 +12519,7 @@ html :where(.wp-block) {
 }
 .block__produkty.eko .block__produkty__single__section ul > li::before {
   background: url(../../images/green-lsit-item.svg) no-repeat center;
+  top: 0;
 }
 .block__produkty__single__section__content a {
   color: inherit !important;
@@ -12750,6 +12753,12 @@ html :where(.wp-block) {
   }
 }
 @media screen and (max-width: 678px) {
+  .block__copakujemy-single__title {
+    padding: 10px !important;
+  }
+  .sw-timeline .fs-20, .sw-timeline h5, .sw-timeline .h5 {
+    font-size: 1.1rem;
+  }
   .icons {
     max-width: 70%;
     margin: auto;

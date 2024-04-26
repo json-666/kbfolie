@@ -46,7 +46,9 @@ $fields = get_fields();
                 <img src="<?php echo $imageUrl ?>" alt="" class="kbf-mw-fit w-100 mx-auto">
                 <h4 class="fs-30 fw-600 my-3"><?php echo $fields['kafel_'.$item]['tytul']; ?></h4>
                 <p class="fs-20 fw-300 my-4"><?php echo $fields['kafel_'.$item]['tresc'] ?></p>
-                <a href="<?php echo $fields['kafel_'.$item]['przycisk']['url'] ?? '' ?>" class="btn-primary d-inline-block">Dowiedz się więcej</a>
+                <?php if(!empty($fields['kafel_'.$item]['przycisk']['url'])){ ?>
+                    <a href="<?php echo $fields['kafel_'.$item]['przycisk']['url'] ?? '' ?>" class="btn-primary d-inline-block">Dowiedz się więcej</a>
+                <?php } ?>
             </div>
         </div>
         <?php endforeach; ?>
