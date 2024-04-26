@@ -12177,7 +12177,7 @@ figure.w-100 > img {
 }
 
 .kbf-list > li {
-  font-size: 0.9090909091rem;
+  font-size: 1rem;
   list-style-type: none;
   position: relative;
   padding-left: 38px;
@@ -12197,11 +12197,11 @@ figure.w-100 > img {
   width: 20px;
 }
 .kbf-list.orange > li::before {
-  top: 0;
+  top: 3px;
   background: url(../../images/orange-list-item.svg) no-repeat center;
 }
 .kbf-list.green > li::before {
-  top: 0;
+  top: 3px;
   background: url(../../images/green-lsit-item.svg) no-repeat center;
 }
 .kbf-mw-fit {
@@ -12494,7 +12494,7 @@ html :where(.wp-block) {
   margin: 0;
 }
 .block__copakujemy-single__content-item ul > li {
-  font-size: 0.9090909091rem;
+  font-size: 1rem;
   list-style-type: none;
   position: relative;
   padding-left: 30px;
@@ -12519,7 +12519,7 @@ html :where(.wp-block) {
 }
 .block__produkty.eko .block__produkty__single__section ul > li::before {
   background: url(../../images/green-lsit-item.svg) no-repeat center;
-  top: 0;
+  top: 3px;
 }
 .block__produkty__single__section__content a {
   color: inherit !important;
@@ -12529,7 +12529,7 @@ html :where(.wp-block) {
   max-width: 80%;
 }
 .block__produkty__single__section ul > li {
-  font-size: 0.9090909091rem;
+  font-size: 1rem;
   list-style-type: none;
   position: relative;
   padding-left: 38px;

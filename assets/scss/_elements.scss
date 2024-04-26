@@ -105,7 +105,7 @@ figure.w-100 > img{
 .kbf{
   &-list{
     & > li {
-      font-size: toRem(20);
+      font-size: toRem(22);
       list-style-type: none;
       position: relative;
       padding-left: 38px;
@@ -126,13 +126,13 @@ figure.w-100 > img{
     }
     &.orange > li{
       &::before{
-        top: 0;
+        top: 3px;
         background: url(../../images/orange-list-item.svg) no-repeat center;
       }
     }
     &.green > li{
       &::before{
-        top: 0;
+        top: 3px;
         background: url(../../images/green-lsit-item.svg) no-repeat center;
       }
     }
