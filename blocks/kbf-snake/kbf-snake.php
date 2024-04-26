@@ -31,7 +31,7 @@ $fields = get_fields();
 <div class="d-lg-none">
 
     <div class="row justify-content-center">
-        <?php $idsList = [1,7,5,6,2,3,4,8] ?>
+        <?php $idsList = [1,2,3,4,5,6,7,8] ?>
         <?php foreach($idsList as $item): ?>
         <div class="col-md-6 col-ms-8 col-11 my-sm-4 my-5">
             <?php if(is_int($fields['kafel_'.$item]['obrazek'])){
