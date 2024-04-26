@@ -12558,7 +12558,7 @@ html :where(.wp-block) {
 }
 .block__mission__column {
   position: relative;
-  background-color: rgba(245, 245, 245, 0.7);
+  background-color: white;
   border: 6px solid #5EAE2D;
   border-radius: 50px;
   height: 100%;
