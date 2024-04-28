@@ -1,4 +1,4 @@
-<a class="block__aktualnosci__inner text-decoration-none" href="">
+<a class="block__aktualnosci__inner text-decoration-none fc-black" href="<?php echo get_permalink($args->ID) ?>">
     <div class="block__aktualnosci__inner__image" style="background-image: url(<?php echo get_the_post_thumbnail_url($args) ?>)"></div>
     <div class="block__aktualnosci__inner__content">
         <h4 class="fs-25 fw-700"><?php echo $args->post_title; ?></h4>

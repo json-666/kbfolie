@@ -134,6 +134,13 @@
   }
 }
 @media screen and (max-width: 678px){
+  .block__produkty__single__section__content img{
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
   .block__copakujemy-single__title{
     padding: 10px !important;
   }
