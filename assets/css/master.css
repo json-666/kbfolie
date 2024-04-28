@@ -12587,6 +12587,15 @@ html :where(.wp-block) {
     display: none;
   }
 }
+@media (max-width: 1400px) {
+  .block__poznaj__single {
+    width: 190px;
+    height: 190px;
+  }
+  .block__poznaj__single img {
+    width: 70px;
+  }
+}
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1400px;
