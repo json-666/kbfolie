@@ -66,5 +66,22 @@
     </section>
 </footer>
 
+<div class="up">
+    <a href="javascript:window.scroll(0,0)">
+        <img src="<?php echo $_ENV['HOME_URL'] ?>/wp-content/uploads/2024/04/Group-67.png" alt="">
+    </a>
+</div>
+<style>
+    .up{
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+    }
+    @media screen and (max-width: 500px){
+        .up > a > img{
+            width: 60px;
+        }
+    }
+</style>
 <?php wp_footer();
 ?>
