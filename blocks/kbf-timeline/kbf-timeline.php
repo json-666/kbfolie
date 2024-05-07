@@ -32,8 +32,7 @@ $fields = get_fields();
         width: 100vw;
     }
 </style>
-<section class="<?php echo $class_name; ?>">
-    <div class="timeline"></div>
+<section class="<?php echo $class_name; ?> overflow-hidden">
     <div class="swiper sw-timeline">
         <div class="swiper-wrapper">
             <?php foreach($fields['elementy'] as $key=>$slide): ?>
@@ -61,6 +60,10 @@ $fields = get_fields();
                 </div>
             <?php endforeach; ?>
         </div>
+    </div>
+    <div class="row mt-3 justify-content-center g-5">
+        <div class="col-auto"><a href="javascript:console.log(timelineSwiper.slidePrev());"><img src="<?php echo $_ENV['HOME_URL'] ?>/wp-content/uploads/2024/04/Left_Arrow_4_-1-1.svg" alt=""></a></div>
+        <div class="col-auto"><a href="javascript:console.log(timelineSwiper.slideNext());"><img src="<?php echo $_ENV['HOME_URL'] ?>/wp-content/uploads/2024/04/Left_Arrow_4_-1-1.svg" style="transform: rotate(180deg)"></a></div>
     </div>
 
 </section>

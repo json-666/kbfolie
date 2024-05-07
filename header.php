@@ -39,6 +39,9 @@
                 <div class="col-lg-1 col-sm-2 col-3 pe-lg-0 order-2 order-lg-10">
                     <a href="<?php echo get_permalink(218) ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/flagaUE.png" alt="eu flag"></a>
                 </div>
+                <div class="col-auto order-2 order-lg-10">
+                    <?php pll_the_languages( array( 'show_flags'=>1,'show_names'=>0 ) ); ?>
+                </div>
                 <div class="col-auto pe-lg-0 order-2 order-lg-10 d-lg-none">
                     <button class="hamburger hamburger--collapse" type="button">
                         <span class="hamburger-box">
