@@ -40,10 +40,31 @@
                     <a href="<?php echo get_permalink(218) ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/flagaUE.png" alt="eu flag"></a>
                 </div>
                 <div class="col-auto order-2 order-lg-10">
-                    <?php pll_the_languages( array( 'show_flags'=>1,'show_names'=>0 ) ); ?>
+                    <?php
+                        $currentLangFlag = '';
+                        foreach(pll_the_languages(['raw'=>1]) as $lang){
+                            if($lang['current_lang'])
+                                $currentLangFlag = $lang['flag'];
+                        }
+
+                    ?>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <div class="lang-item">
+                                <a href="javascript:document.querySelector('.dropdown').classList.toggle('is-active');"><img src="<?php echo $currentLangFlag ?>"></a>
+                            </div>
+                        </button>
+                        <div class="dropdown-content">
+                            <?php foreach(pll_the_languages(['raw'=>1,'hide_current'=>1]) as $language): ?>
+                                <div class="lang-item">
+                                    <a href="<?php echo $language['url']; ?>"><img src="<?php echo $language['flag']; ?>"></a>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-auto pe-lg-0 order-2 order-lg-10 d-lg-none">
-                    <button class="hamburger hamburger--collapse" type="button">
+                    <button class="hamburger hamburger--collapse" type="buttonW">
                         <span class="hamburger-box">
                           <span class="hamburger-inner"></span>
                         </span>
@@ -76,3 +97,34 @@
             x.nextElementSibling.classList.toggle('is-active');
         }
     </script>
+    <style>
+        .dropbtn {
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: block;
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            z-index: 10;
+            transition: .25s all;
+            margin-top: 15px;
+            margin-left: 5px;
+        }
+        .dropdown-content a {
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a img{
+            max-width: fit-content;
+        }
+        .dropdown.is-active .dropdown-content {
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>

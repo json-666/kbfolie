@@ -24,7 +24,7 @@ $blockID =  substr($block['id'], 0, 12);
 $fields = get_fields();
 ?>
 <section class="<?php echo $class_name; ?>">
-	<h2 class="kbf__title mark-40 my-5">Aktualności</h2>
+	<h2 class="kbf__title mark-40 my-5"><?php echo $fields['tytul'] ?? 'Aktualności' ?></h2>
 	<div class="container container-large pb-5">
 		<div class="row align-items-center justify-content-center gap-4 gap-sm-2">
 			<div class="col-sm col-1 order-2 order-sm-1 p-0 p-sm-auto">
