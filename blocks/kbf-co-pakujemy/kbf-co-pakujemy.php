@@ -33,7 +33,9 @@ $fields = get_fields();
 </style>
 <section class="<?php echo $class_name; ?>">
     <div class="container my-5">
-        <h2 class="kbf__title-2 fc-orange mt-3 mb-0 text-uppercase"><a class="fc-orange text-decoration-none" href="<?php echo get_home_url() ?>#co-mozemy-zapakowac">Co możemy zapakować</a></h2>
+        <h2 class="kbf__title-2 fc-orange mt-3 mb-0 text-uppercase"><a class="fc-orange text-decoration-none" href="<?php echo get_home_url() ?>#co-mozemy-zapakowac">
+                Co możemy zapakować
+            </a></h2>
         <div class="block__copakujemy-single__title text-center my-3">
             <div class="block__copakujemy-single__title__inner d-inline-block">
                 <h3 class="m-0 lh-1 text-uppercase fw-600"><?php echo get_the_title(); ?></h3>

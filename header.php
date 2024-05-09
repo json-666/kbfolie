@@ -36,17 +36,20 @@
 	            <?php get_template_part('template-parts/part-menu-siteidentity'); ?>
 	            <?php get_template_part('template-parts/part-menu-navigation'); ?>
                 <div class="col d-lg-none order-2"></div>
-                <div class="col-lg-1 col-sm-2 col-3 pe-lg-0 order-2 order-lg-10">
+                <div class="col-lg-1 col-sm-2 col-3 order-2 order-lg-10">
                     <a href="<?php echo get_permalink(218) ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/flagaUE.png" alt="eu flag"></a>
                 </div>
                 <div class="col-auto order-2 order-lg-10">
-                    <?php
-                        $currentLangFlag = '';
-                        foreach(pll_the_languages(['raw'=>1]) as $lang){
-                            if($lang['current_lang'])
-                                $currentLangFlag = $lang['flag'];
-                        }
+                    <div class="languageSwitcher">
+                        
 
+                    <?php
+                        $flags = [
+                            'de'    =>  'images/flag_de.svg',
+                            'en'    =>  'images/flag_gb.svg',
+                            'pl'    =>  'images/flag_pl.svg',
+                        ];
+                        $currentLangFlag = get_template_directory_uri() . '/' . $flags[ pll_current_language('slug')];
                     ?>
                     <div class="dropdown">
                         <button class="dropbtn">
@@ -57,10 +60,13 @@
                         <div class="dropdown-content">
                             <?php foreach(pll_the_languages(['raw'=>1,'hide_current'=>1]) as $language): ?>
                                 <div class="lang-item">
-                                    <a href="<?php echo $language['url']; ?>"><img src="<?php echo $language['flag']; ?>"></a>
+                                    <a href="<?php echo $language['url']; ?>"><img src="<?php echo get_template_directory_uri() .'/'. $flags[$language['slug']]; ?>"></a>
                                 </div>
                             <?php endforeach; ?>
                         </div>
+                    </div>
+                        <a href="javascript:document.querySelector('.dropdown').classList.toggle('is-active');"><img src="<?php echo get_template_directory_uri() ?>/images/down_73562601.svg" alt=""></a>
+
                     </div>
                 </div>
                 <div class="col-auto pe-lg-0 order-2 order-lg-10 d-lg-none">
@@ -113,7 +119,6 @@
             position: absolute;
             z-index: 10;
             transition: .25s all;
-            margin-top: 15px;
             margin-left: 5px;
         }
         .dropdown-content a {
