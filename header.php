@@ -107,6 +107,7 @@
         .dropbtn {
             border: none;
             cursor: pointer;
+            background: transparent;
         }
         .dropdown {
             position: relative;
