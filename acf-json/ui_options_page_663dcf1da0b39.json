@@ -1,0 +1,23 @@
+{
+    "key": "ui_options_page_663dcf1da0b39",
+    "title": "Stopka DE",
+    "active": true,
+    "menu_order": 0,
+    "page_title": "Stopka DE",
+    "menu_slug": "stopka-de",
+    "parent_slug": "ustawienia-moytwu",
+    "advanced_configuration": 0,
+    "icon_url": "",
+    "menu_title": "",
+    "position": "",
+    "redirect": false,
+    "description": "",
+    "update_button": "Update",
+    "updated_message": "Options Updated",
+    "capability": "edit_posts",
+    "data_storage": "options",
+    "post_id": "",
+    "autoload": 0,
+    "_parent": 954,
+    "modified": 1715326756
+}
