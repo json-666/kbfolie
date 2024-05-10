@@ -27,7 +27,7 @@ $fields = get_fields();
     <div class="container">
         <h3 class="fs-25 fc-black fw-700 text-center"><?php echo $fields['tytul'] ?? 'Nasza działania w CBR' ?></h3>
         <p class="my-5 fw-600 fs-20 text-center"><?php echo $fields['opis'] ?? _LOREM ?></p>
-        <p class="my-5 fw-600 text-center">Główne kierunki działań obejmują:</p>
+        <p class="my-5 fw-600 text-center"><?php echo $fields['kierunki'] ?? 'Główne kierunki działań obejmują:' ?></p>
         <?php foreach($fields['dzialania_lista'] as $key => $dzialanie): ?>
         <div class="my-5 py-4">
             <?php if($key%2 == 0): ?>
