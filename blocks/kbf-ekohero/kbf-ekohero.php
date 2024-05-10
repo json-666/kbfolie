@@ -37,7 +37,8 @@ $fields = get_fields();
             </div>
         </div>
         <div class="col-lg-11 mx-auto mt-5">
-            <div class="row justify-content-between" data-masonry='{"percentPosition": true }'>
+			<!-- data-masonry='{"percentPosition": true }' -->
+            <div class="row justify-content-between">
                 <?php foreach ($fields['cele_-_lista'] as $key => $item): ?>
                     <div class="col-lg-6 mt-5 mt-sm-4">
                         <div class="row justify-content-center justify-content-lg-evenly <?php if($item['czy_wysrodkowac_tekst']){echo "align-items-center";} ?>">

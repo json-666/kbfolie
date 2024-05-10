@@ -42,7 +42,10 @@ $fields = get_fields();
                         </div>
                     </div>
                     <div class="col-xxl-3 col-md-4 col-12 text-center p-lg-0">
-                        <img src="<?php echo $section['obraz_po_prawej']['url'] ?? '' ?>" alt="<?php echo $section['obraz_po_prawej']['alt'] ?? '' ?>" class="w-100 icons" style="max-width: fit-content">
+                        <img src="<?php echo $section['obraz_po_prawej']['url'] ?? '' ?>" alt="<?php echo $section['obraz_po_prawej']['alt'] ?? '' ?>" class="w-100 icons <?php if(isset($section['obraz_po_prawej_mobile']['url'])){ ?>d-none d-md-block<?php } ?>" style="max-width: fit-content">
+						<?php if(isset($section['obraz_po_prawej_mobile']['url'])){ ?>
+							<img src="<?php echo $section['obraz_po_prawej_mobile']['url'] ?? '' ?>" alt="<?php echo $section['obraz_po_prawej_mobile']['alt'] ?? '' ?>" class="w-100 icons d-md-none" style="max-width: fit-content">
+						<?php } ?>
                     </div>
                 </div>
 

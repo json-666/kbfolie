@@ -1,0 +1,22 @@
+{
+    "key": "ui_options_page_662fb90d80c77",
+    "title": "Ustawienia motywu",
+    "active": true,
+    "menu_order": 0,
+    "page_title": "Ustawienia motywu",
+    "menu_slug": "ustawienia-moytwu",
+    "parent_slug": "none",
+    "advanced_configuration": 0,
+    "icon_url": "",
+    "menu_title": "",
+    "position": "",
+    "redirect": 0,
+    "description": "",
+    "update_button": "Update",
+    "updated_message": "Options Updated",
+    "capability": "edit_posts",
+    "data_storage": "options",
+    "post_id": "",
+    "autoload": 0,
+    "modified": 1714403609
+}

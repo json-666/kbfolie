@@ -1,0 +1,741 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1715326849732,
+    "data": [
+        {
+            "type": "file",
+            "name": ".env",
+            "size": 50,
+            "hash": "dec689dcc813fd3d855e06bc839bc15bfd6a8ba18b2c609669440936aef9b4f2"
+        },
+        {
+            "type": "folder",
+            "name": ".idea"
+        },
+        {
+            "type": "folder",
+            "name": "acf-json"
+        },
+        {
+            "type": "folder",
+            "name": "assets"
+        },
+        {
+            "type": "folder",
+            "name": "blocks"
+        },
+        {
+            "type": "file",
+            "name": "footer.php",
+            "size": 4341,
+            "hash": "61dbbe164920bed0d58d483a78eba8efb2eaa3d851a96c5f7d98c7db36eafb09"
+        },
+        {
+            "type": "file",
+            "name": "functions.php",
+            "size": 5694,
+            "hash": "4b7a9685ea5b29689a518a7ee93609d6b5740ee575ef51c6b5dc26be6ed83e80"
+        },
+        {
+            "type": "file",
+            "name": "header.php",
+            "size": 6030,
+            "hash": "b4b913b59eaa18b9bb2722cee30da81dcfd01d6fd61f497dc34cbcf0a0f1df8c"
+        },
+        {
+            "type": "file",
+            "name": "home.php",
+            "size": 1660,
+            "hash": "22610086ff19ef4c45d5734853187e60b4786822daaacc6812f5db8dda4929a8"
+        },
+        {
+            "type": "folder",
+            "name": "images"
+        },
+        {
+            "type": "file",
+            "name": "index.php",
+            "size": 33,
+            "hash": "43b09d3b0849b0ddd5a9d5eac49c0daf563f35234a6c800a93697670f41a24a7"
+        },
+        {
+            "type": "file",
+            "name": "package-lock.json",
+            "size": 9932,
+            "hash": "b27c0f0e358a940f287880f3017c008705633386b368d29860764e6a4c0f0953"
+        },
+        {
+            "type": "file",
+            "name": "package.json",
+            "size": 514,
+            "hash": "7d042b7d5e862afad83aaa718a94989c5ff619f7f2d8b534cca3f7a033653c38"
+        },
+        {
+            "type": "file",
+            "name": "page.php",
+            "size": 170,
+            "hash": "4a98322b1c3a1cc97935131a225e6d4713a31e14a42bd8b83d6252aed2f5de6b"
+        },
+        {
+            "type": "file",
+            "name": "screenshot.png",
+            "size": 3797854,
+            "hash": "c3b88511da0d40f32db4ab410b4480fd5bde9dfb2e40c2370d7f728a97da58e4"
+        },
+        {
+            "type": "file",
+            "name": "single.php",
+            "size": 368,
+            "hash": "a49a97930df22419cc543b6bc45c4ee483e7238c274889a1a78a495a5c9c6031"
+        },
+        {
+            "type": "file",
+            "name": "style.css",
+            "size": 148,
+            "hash": "be17743b7091c2611793847ad625260223967e4cc9b759b2854cbc0778ad647d"
+        },
+        {
+            "type": "folder",
+            "name": "template-parts"
+        },
+        {
+            "type": "file",
+            "name": ".idea/kbfolie.iml",
+            "size": 288,
+            "hash": "c175f68ed3b5420621f4e81c25a5d205c21978b65b6c4f351a4000a43e6242ad"
+        },
+        {
+            "type": "file",
+            "name": ".idea/modules.xml",
+            "size": 273,
+            "hash": "88b1aa20e58a8bae612d0c9f081551d42d87b2151975e5d4c2846adf0dc75f90"
+        },
+        {
+            "type": "file",
+            "name": ".idea/php.xml",
+            "size": 874,
+            "hash": "d5d40432ff2b5c997bc0a717ae8fe007dc8b4f4e50cae88c5e37c25ee3243103"
+        },
+        {
+            "type": "file",
+            "name": ".idea/vcs.xml",
+            "size": 172,
+            "hash": "62be7e0a7f84ab3c35b4d4bafb890a4951d061eadafde1a10aa3f5d0406db5df"
+        },
+        {
+            "type": "file",
+            "name": "acf-json/group_661efa0e442b2.json",
+            "size": 7119,
+            "hash": "8a1dc663ff80d5b785e4d8c155861f645ce3db8993c0a584cc91f39c2a61ad9d"
+        },
+        {
+            "type": "file",
+            "name": "acf-json/group_6624fe4c2bafe.json",
+            "size": 4237,
+            "hash": "7e06b6f81b30dec69bcd09e84695c4d47cc694102f34787cf97b5e19e98dd684"
+        },
+        {
+            "type": "file",
+            "name": "acf-json/group_6625415834c7f.json",
+            "size": 5596,
+            "hash": "3d3440eca23f81081cb274615855777c12d059167cfabb72a07f82475b230124"
+        },
+        {
+            "type": "file",
+            "name": "acf-json/group_662fb92aae70e.json",
+            "size": 24928,
+            "hash": "3594fae7e8a9bd6f5d526f0f7b1d588c1b978833896e8bf356f9d1f6a9e2b2c1"
+        },
+        {
+            "type": "file",
+            "name": "acf-json/group_663b2a6d99dc2.json",
+            "size": 1083,
+            "hash": "834db8375bd7baae9b41362832832db7fbc7337ca49db5f7ce82e1c79f51e90c"
+        },
+        {
+            "type": "file",
+            "name": "acf-json/ui_options_page_663dcf0a26d28.json",
+            "size": 578,
+            "hash": "864754819d27ce302c7a4716b7a3c39f34b79703777c58321f8be4bfc8d2e029"
+        },
+        {
+            "type": "file",
+            "name": "acf-json/ui_options_page_663dcf1da0b39.json",
+            "size": 578,
+            "hash": "dc31501294555b35d0c8a1b2bfba01c7ad8b553c4a3179034167fbec850d59f6"
+        },
+        {
+            "type": "file",
+            "name": "acf-json/ui_options_page_663dcf322caac.json",
+            "size": 578,
+            "hash": "4631b0d42e0d83a78dbbf28954368d123db21f4caa570d5ce51062cd4146b98a"
+        },
+        {
+            "type": "folder",
+            "name": "assets/css"
+        },
+        {
+            "type": "folder",
+            "name": "assets/fonts"
+        },
+        {
+            "type": "folder",
+            "name": "assets/scss"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-aktualnosci_hp"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-categories"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-co-pakujemy"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-contacts"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-container_content"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-dzialania_cbr"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-ekohero"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-hero"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-localization"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-mission"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-poznaj_nas_blizej"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-praca"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-products-home"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-produkty"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-snake"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-timeline"
+        },
+        {
+            "type": "file",
+            "name": "images/Group 84.png:Zone.Identifier",
+            "size": 58,
+            "hash": "011dba900b013a03cf03d8e43bd741eee869e77c6d11eb20f9f0e2df679798be"
+        },
+        {
+            "type": "file",
+            "name": "images/Group93.svg",
+            "size": 4873,
+            "hash": "3f4dddc5851cf564b36718c219785afc973600c43bcf29c1d6772c3e53548551"
+        },
+        {
+            "type": "file",
+            "name": "images/Left_Arrow_4_.svg",
+            "size": 485,
+            "hash": "c24dcb10e311bc14221691f4e2a5a6e50cb330b7b69c81fb87e751443c8c0c95"
+        },
+        {
+            "type": "file",
+            "name": "images/arrow_pdf.svg",
+            "size": 1872,
+            "hash": "4c1cb7f66f344f4b3ea4de2a5493695cebe115587345bd5697b3de101fcc2552"
+        },
+        {
+            "type": "file",
+            "name": "images/bgPNBItem.svg",
+            "size": 858,
+            "hash": "36e6fa891e56456fef5dea2c464452b92f81ef4cb0e048dc732c701fce97b73d"
+        },
+        {
+            "type": "file",
+            "name": "images/bg_mission.png",
+            "size": 4960108,
+            "hash": "5f2f52fd582f4d1fc2d28b1af92a378b02b9bf3f2397c88805945ddbf03495be"
+        },
+        {
+            "type": "file",
+            "name": "images/coronavirus-covid19-virus-insurance-protect.png",
+            "size": 6782,
+            "hash": "01a3c9724eb8b59342e32943891d4c28a76ff9841fc646305108e869f108f9e7"
+        },
+        {
+            "type": "file",
+            "name": "images/down_73562601.svg",
+            "size": 970,
+            "hash": "5839da6f98bb7fa955215285200c9518436a8566217a98e26ccb87685d9b67cf"
+        },
+        {
+            "type": "file",
+            "name": "images/flag_de.svg",
+            "size": 1001,
+            "hash": "f86716b38d786291bc5336272c9aa17bc4c145759c729d893bde15696b27949a"
+        },
+        {
+            "type": "file",
+            "name": "images/flag_gb.svg",
+            "size": 1773,
+            "hash": "387c6aaba055e32b4c32401f6873597df8d182388aaa8202e7fef8ce7088a181"
+        },
+        {
+            "type": "file",
+            "name": "images/flag_pl.svg",
+            "size": 352,
+            "hash": "5cd56d2ed3cc6cff255f30be5828b86eea42540f3a67797a88092680ce6f96b6"
+        },
+        {
+            "type": "file",
+            "name": "images/flagaUE.png",
+            "size": 21574,
+            "hash": "0ab0afc8b688ae44cac56e7710e1ca0d7d5d44132090671ee28f10c38bf986f7"
+        },
+        {
+            "type": "file",
+            "name": "images/green-lsit-item.svg",
+            "size": 754,
+            "hash": "5064864d1e16b9a1dec97f6a62cf01731b36cd48a19ca20eae639989f7049e13"
+        },
+        {
+            "type": "file",
+            "name": "images/icon_list_item_single_cmz.svg",
+            "size": 752,
+            "hash": "51a45bd3ed9651ab3c8529e987dc7e85c73c07469c187f51b778b0baca987323"
+        },
+        {
+            "type": "file",
+            "name": "images/macaroons.png",
+            "size": 183952,
+            "hash": "8fdd58c2af9ddbac2bd428a87b4556c3978025b01a749bc667cb8d96ba9a4c4d"
+        },
+        {
+            "type": "file",
+            "name": "images/mail.png",
+            "size": 263,
+            "hash": "c0f39104a2b60504be0222c7da8331cb7e679d18d59fc33cc39129d75103af53"
+        },
+        {
+            "type": "file",
+            "name": "images/orange-list-item.svg",
+            "size": 754,
+            "hash": "e7435a0e5175caf19000fb5897ea07d3e5c34608f46837546e30513fc31d48fa"
+        },
+        {
+            "type": "file",
+            "name": "images/phone.png",
+            "size": 242,
+            "hash": "aef39c67fcf31a0315803606617e0dc0872705add976ec1571eaa3ac984b3d30"
+        },
+        {
+            "type": "file",
+            "name": "images/pnb_snake_up.svg",
+            "size": 684,
+            "hash": "88bf87d2cfaffbe7155bea6704cf9533426856e3dac4768521dda7135d6c178c"
+        },
+        {
+            "type": "file",
+            "name": "images/pouch_mockup 3.png",
+            "size": 64086,
+            "hash": "45dfefd390f509b9327d937535c164060bbe6a33095d88d0f200e4f404aa8aeb"
+        },
+        {
+            "type": "file",
+            "name": "images/telko22.png",
+            "size": 168238,
+            "hash": "6ee0e08119067a055e3e2abc91c920f1db769ee3c1e7260c7e10a9847015bfe8"
+        },
+        {
+            "type": "file",
+            "name": "images/tlo1.png",
+            "size": 105108,
+            "hash": "6eaac149e0b447367961e78bad22836fccdcdba13f0797bad87c8a5e77854256"
+        },
+        {
+            "type": "file",
+            "name": "images/trojkacik.svg",
+            "size": 172,
+            "hash": "711396d243ee13d1242e8a1b70275fc7c0c3a32c00d07d1772328fbcd6c90f03"
+        },
+        {
+            "type": "file",
+            "name": "images/ueA1.png",
+            "size": 25949,
+            "hash": "8c4cc9a4274b08708a601a0d4294861b9d7bb3b833b814464acb8024f10dc6d3"
+        },
+        {
+            "type": "file",
+            "name": "template-parts/part-menu-navigation.php",
+            "size": 202,
+            "hash": "e6e8ea778f736513a09f2aa5a29f2ce6a09cc52c4cdbd89b6ef34a2b33f28b64"
+        },
+        {
+            "type": "file",
+            "name": "template-parts/part-menu-siteidentity.php",
+            "size": 251,
+            "hash": "05d2821eef636dc411e49e1989c78b26e855cc7a6bcae89c3a7c7cd56deb72f6"
+        },
+        {
+            "type": "file",
+            "name": "template-parts/part-posts-loop.php",
+            "size": 410,
+            "hash": "0a305d9085a76dad0d936228758f3e4bc73fc720f74c98a9ebc04dfc8d3d8e8f"
+        },
+        {
+            "type": "file",
+            "name": "template-parts/part-single-post.php",
+            "size": 138,
+            "hash": "8996a4dde8da8d5abc64340870e835a6d95e3b8348e98f93b4614524236da9f7"
+        },
+        {
+            "type": "file",
+            "name": "assets/css/master.css",
+            "size": 290309,
+            "hash": "c83368f245e045c4cb318965673b5c4c7f383b9042174b5ab074835905ffc423"
+        },
+        {
+            "type": "file",
+            "name": "assets/css/master.css.map",
+            "size": 58535,
+            "hash": "998387b3958dd401a628be8e04eba96d34f119238bb953063bf573ed97245a49"
+        },
+        {
+            "type": "file",
+            "name": "assets/fonts/Montserrat-VariableFont_wght.woff",
+            "size": 91784,
+            "hash": "30db9134159bfa33b4f3dd35542d5fbb430c71454a32939e5029e998da2f3314"
+        },
+        {
+            "type": "file",
+            "name": "assets/fonts/Montserrat-VariableFont_wght.woff2",
+            "size": 124724,
+            "hash": "5a05eb46ce0674e266f2cbb7095a891d3012947d8bcaffb76a8235f37c71c72c"
+        },
+        {
+            "type": "file",
+            "name": "assets/scss/_blocks.scss",
+            "size": 6020,
+            "hash": "93e3e0bb9a07be0ed29ab6e6645efe2418e753b51ba6b65294245b026be7f75e"
+        },
+        {
+            "type": "file",
+            "name": "assets/scss/_elements.scss",
+            "size": 2963,
+            "hash": "c7c075c43acef51a3ceae6260a73095391470d8119d679ae558fb30fb7b83022"
+        },
+        {
+            "type": "file",
+            "name": "assets/scss/_fonts.scss",
+            "size": 817,
+            "hash": "6f98d7eb145a9bc1f838f5f8e1ace32c12a8125045e56b51768a3086117e4086"
+        },
+        {
+            "type": "file",
+            "name": "assets/scss/_functions.scss",
+            "size": 198,
+            "hash": "ce38ad763acfc0c81c8610881069e9ebf94913ce5a6883170a6c23c8215d3a15"
+        },
+        {
+            "type": "file",
+            "name": "assets/scss/_responsive.scss",
+            "size": 3481,
+            "hash": "041f2859076b95c0a2d0470fc7f5767d339e1e79e0207de25fe7cad5eb04e805"
+        },
+        {
+            "type": "file",
+            "name": "assets/scss/_singulars.scss",
+            "size": 170,
+            "hash": "7a0fd7f17d33f09f19f7f74906cf651fde91b8f34d27ac2330ec3bf68a5d4682"
+        },
+        {
+            "type": "file",
+            "name": "assets/scss/_variables.scss",
+            "size": 343,
+            "hash": "535e4d0488154e93a929ceed2d9d6d693d219c7cdb570d1b7c4c5e69e61862db"
+        },
+        {
+            "type": "file",
+            "name": "assets/scss/master.scss",
+            "size": 2701,
+            "hash": "e9b95d9eb11830ac7604d5e49c338e27496abdef7c2fba134a3b0c5e0706e34f"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-aktualnosci_hp/block.json",
+            "size": 417,
+            "hash": "c8bab7ae2c94bd7a4980e410c3702749ebd111ad7bd52338a02ebbdd79018dd1"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-aktualnosci_hp/kbf-aktualnosci_hp.php",
+            "size": 2485,
+            "hash": "7254ad7da6168316f4d6ebb379bbc05cf4e2b67794de80081a3a34ff50443b8a"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-aktualnosci_hp/parts"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-categories/block.json",
+            "size": 375,
+            "hash": "4b8a2732c23a6b00f535d535cd4743c402e466c5f033eadcf130309a52f5d2c4"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-categories/kbf-categories.php",
+            "size": 1403,
+            "hash": "55d4e002eecd008e95d3cf2cbb808260670dbc541d5fa093e101dcf7d23016e2"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-co-pakujemy/block.json",
+            "size": 398,
+            "hash": "49bbbf73bbeaef4153db2233631ce43b847e212276981524ecb6e2f9e4a47679"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-co-pakujemy/kbf-co-pakujemy.php",
+            "size": 2452,
+            "hash": "765c732742548e3f0875a561d2cac8c239dd327484f789df209b03c2a6a2b2a2"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-contacts/block.json",
+            "size": 312,
+            "hash": "043e0d8bdc91635d6b40c97b61ec9b54f8edd336a4bdd748537e2fcd72b71df0"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-contacts/kbf-contacts.php",
+            "size": 1989,
+            "hash": "75853fdfa5cef0b1503bd61d83332b2797c45ba18f8e4a176432e702e0af5854"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-container_content/block.json",
+            "size": 378,
+            "hash": "1aa0746f93895c115b1875901575059a6c68f50e727adc51bcd8248cdc82c353"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-container_content/kbf-container_content.php",
+            "size": 715,
+            "hash": "765403a7e59d27463d4b890a74b795fc2072b2f6c4f4710875cc5df05653836b"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-dzialania_cbr/block.json",
+            "size": 368,
+            "hash": "a9b1b330be7590323f1f54f106c221d6b7b2e30b2973c36804da93dda731c00f"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-dzialania_cbr/kbf-dzialania_cbr.php",
+            "size": 1572,
+            "hash": "baba4f04213137cf49da78afbb76439375648622ed106349f0d51f50be577737"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-dzialania_cbr/parts"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-ekohero/block.json",
+            "size": 337,
+            "hash": "da9123a3e28a4b40c7a9f556f97235cfd7bd9d3f317091e38ed50c2c2f1088f5"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-ekohero/kbf-ekohero.php",
+            "size": 2590,
+            "hash": "e53b182ead5c8b515090e5ff934f5de3cb473da3c13d66862e4677a3137b2440"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-hero/block.json",
+            "size": 346,
+            "hash": "3878d2b71c84a968641e9ef018a4b978da3d54f2f4fb322a2ab359c51dfc48e9"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-hero/kbf-hero.php",
+            "size": 2104,
+            "hash": "e907d84190705121739991e6a22dabe60aaa13847fbfba9ab20fa4d6691d0257"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-localization/block.json",
+            "size": 375,
+            "hash": "3876041251af7d2e8a3ec49d8336908ac8ed23acf550bbb8eb1c0a588851df47"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-localization/kbf-localization.php",
+            "size": 2562,
+            "hash": "e2960683e48f5b0c22ed6d57e33472884e3b570939d42d87afa1d1937cc39611"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-mission/block.json",
+            "size": 323,
+            "hash": "3ab727a830d6b3eb034a46665ef92eb8402d1471dd39bd4e474a831e874d3741"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-mission/kbf-mission.php",
+            "size": 1647,
+            "hash": "3e3ed8e8b33669750160c96f94971813827584fc046603e4cca755565f962e91"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-poznaj_nas_blizej/block.json",
+            "size": 419,
+            "hash": "efeaaf5f9ecc8550fdacde3afd79f452715976d9c2917da98323d193be0c76f6"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-poznaj_nas_blizej/kbf-poznaj_nas_blizej.php",
+            "size": 1379,
+            "hash": "425b893a5487ec67f6f3dd5e8e87514ca374699fde33886efca73919a4f5a1ee"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-praca/block.json",
+            "size": 336,
+            "hash": "3907573cc01addea7e0e0bcf21d80598439196f447cdf0bb6c4b60ef42169fa4"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-praca/kbf-praca.php",
+            "size": 1923,
+            "hash": "81933f6c7745069d92c25a488ea00626cd2e3dc2f6258160fa4ec9bf9fa2a57b"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-products-home/block.json",
+            "size": 382,
+            "hash": "814bb0207f7efa707108b7e2823fac2358e0c83a7d6e9bca15230f6a20b727c1"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-products-home/kbf-products-home.php",
+            "size": 1071,
+            "hash": "b9d5c7f0b321e223824609940cdf6f68e1198b6d86c24a45fb5f4a59146c1a1a"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-products-home/parts"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-produkty/block.json",
+            "size": 379,
+            "hash": "1c545d92c679c295d2e69ad7d72eb4f02d59aea4fdac09bd6bf9b1097a980e2e"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-produkty/kbf-produkty.php",
+            "size": 2477,
+            "hash": "9c070208bc28aa77b3443611bdee66c64b25863911bae7bb2e70632af6e810f4"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-snake/block.json",
+            "size": 340,
+            "hash": "3714286ea320e5cb46bca7439ad9a3b4f7019cf039598da854ad213ec4a4e2b1"
+        },
+        {
+            "type": "folder",
+            "name": "blocks/kbf-snake/internalization"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-snake/kbf-snake.php",
+            "size": 2090,
+            "hash": "72c96cab43676a76e38128634a1c5584dc7586ba6ce738ff7a13a41be51ad065"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-timeline/block.json",
+            "size": 345,
+            "hash": "e53f2342b6822c20b720660088df302b10ae936c2c3b058bc7699d266f32e18a"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-timeline/kbf-timeline.php",
+            "size": 3754,
+            "hash": "dd635acf631e0ed3c709971915334628303d093ae63eba6ba473d88615f18bb9"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-aktualnosci_hp/parts/card.php",
+            "size": 1138,
+            "hash": "0dad9a850dfc774b68e96e734e1c2abe6f4e9d2558a336134813423ec6af4bd5"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-dzialania_cbr/parts/card-left.php",
+            "size": 776,
+            "hash": "cb30536751ce0cb4e0b87b9eedc8ee253df4eac7d546e849487fa58f7641fae4"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-dzialania_cbr/parts/card.php",
+            "size": 806,
+            "hash": "6cc982dd9934d6fcc8aa7e1a1d152f78d6a716427c2362f7644bd8b12b8e8a66"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-products-home/parts/card.php",
+            "size": 516,
+            "hash": "eccdd27692d63675ca53a2bf8269c8884632d3e4bd7c4e62566a0d710ca876a7"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-snake/internalization/de.php",
+            "size": 485488,
+            "hash": "5d0684c3b026e410f973932f3b0caa7efa8519b2895274f063d609b185765a13"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-snake/internalization/en.php",
+            "size": 485488,
+            "hash": "5d0684c3b026e410f973932f3b0caa7efa8519b2895274f063d609b185765a13"
+        },
+        {
+            "type": "file",
+            "name": "blocks/kbf-snake/internalization/pl.php",
+            "size": 485488,
+            "hash": "5d0684c3b026e410f973932f3b0caa7efa8519b2895274f063d609b185765a13"
+        }
+    ]
+}

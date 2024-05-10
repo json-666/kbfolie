@@ -36,7 +36,7 @@
 	            <?php get_template_part('template-parts/part-menu-siteidentity'); ?>
 	            <?php get_template_part('template-parts/part-menu-navigation'); ?>
                 <div class="col d-lg-none order-2"></div>
-                <div class="col-lg-1 col-sm-2 col-3 order-2 order-lg-10">
+                <div class="col-lg-1 col-sm-2 col-3 order-2 order-lg-10 d-none d-sm-block">
                     <a href="<?php echo get_permalink(218) ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/flagaUE.png" alt="eu flag"></a>
                 </div>
                 <div class="col-auto order-2 order-lg-10 px-0">
@@ -108,6 +108,9 @@
             border: none;
             cursor: pointer;
             background: transparent;
+        }
+        .dropbtn .lang-item{
+            margin-top: 0;
         }
         .dropdown {
             position: relative;

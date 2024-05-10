@@ -1,3 +1,12 @@
+<?php
+    if(pll_current_language() == 'pl') {
+        $fmenu = get_field('menu_w_stopce', 'options');
+        $info = get_field('informacje','options');
+    }else{
+        $fmenu = get_field('menu_w_stopce-'.pll_current_language(), 'options');
+        $info = get_field('informacje-'.pll_current_language(),'options');
+    }
+ ?>
 <footer>
     <section class="border-top border-1 border-black">
         <div class="container">
@@ -8,23 +17,19 @@
                     </a>
                 </div>
                 <div class="col-lg-2 col-sm-4 mt-sm-4 mt-5 col-12 text-center text-sm-start">
-                    <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">FIRMA</a>
-                    <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">PRODUKCJA</a>
-                    <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">PRODUKTY</a>
+                    <?php foreach($fmenu['kolumna_1']['linki'] as $link): ?>
+                        <a href="<?php echo $link['link']['url'] ?>" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block"><?php echo $link['link']['title'] ?></a>
+                    <?php endforeach; ?>
                 </div>
                 <div class="col-lg-2 col-sm-4 mt-sm-4 mt-2 col-12 text-center text-sm-start">
-                    <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">CBR</a>
-                    <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">BLOG</a>
-                    <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">KONTAKT</a>
+                    <?php foreach($fmenu['kolumna_2']['linki'] as $link): ?>
+                        <a href="<?php echo $link['link']['url'] ?>" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block"><?php echo $link['link']['title'] ?></a>
+                    <?php endforeach; ?>
                 </div>
                 <div class="col-sm-4 col-12 mt-sm-4 mb-5 mb-sm-0 text-center text-sm-start">
-                    <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">
-                        Ochrona danych osobowych
-                    </a>
-                    <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">
-                        Polityka KB FOLIE POLSKA
-                    </a>
-                    <a href="#" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block">RODO</a>
+                    <?php foreach($fmenu['kolumna_3']['linki'] as $link): ?>
+                        <a href="<?php echo $link['link']['url'] ?>" class="text-decoration-none fc-black fw-600 fs-20 text-uppercase d-block"><?php echo $link['link']['title'] ?></a>
+                    <?php endforeach; ?>
                 </div>
                 <div class="col pe-lg-0 mt-sm-4 mb-5 mb-sm-0">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/ueA1.png" alt="" class="w-100">
@@ -33,10 +38,7 @@
             <div class="row align-items-center justify-content-center justify-content-lg-between">
                 <div class="col-auto ps-lg-0">
                     <p class="fw-600 fs-15 text-center text-sm-start">
-                        KB Folie Polska Sp.z o.o. <br/>
-                        ul. Bieżuńska 2b, 03-578 Warszawa <br/>
-                        NIP 524-12-08-638, KRS 0000087007, REGON 011944280 <br/>
-                        tel. +48 22 679 99 27, fax +48 22 678 66 66, e-mail: kbfolie@kbfolie.pl
+                        <?php echo $info;  ?>
                     </p>
                 </div>
                 <div class="col-auto pe-lg-0">

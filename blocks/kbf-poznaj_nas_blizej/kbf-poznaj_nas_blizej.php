@@ -25,7 +25,7 @@ $fields = get_fields();
 ?>
 <section class="<?php echo $class_name; ?>">
 	<div class="container container-large">
-        <h2 class="fc-white fs-35 fw-600 text-center">Poznaj nas bliżej</h2>
+        <h2 class="fc-white fs-35 fw-600 text-center"><?php echo $fields['tytul'] ?></h2>
         <div class="mt-5 mb-3 row">
             <?php foreach($fields['ikony'] as $ikona): ?>
                 <div class="col my-3 p-0 block__poznaj__single__wrapper">
